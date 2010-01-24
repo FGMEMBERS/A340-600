@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <!-- Positions of every row of seats (single model) repeated -->
+
+<!-- Business Class -->
+
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seatingfront1.ac</path>
+    <offsets>
+      <x-m> -32.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seatingfront1.ac</path>
+    <offsets>
+      <x-m> -31.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seatingfront1.ac</path>
+    <offsets>
+      <x-m> -30.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seatingfront.ac</path>
+    <offsets>
+      <x-m> -29.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seatingfront.ac</path>
+    <offsets>
+      <x-m> -28.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>  
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seatingfront.ac</path>
+    <offsets>
+      <x-m> -27.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seatingfront.ac</path>
+    <offsets>
+      <x-m> -26.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seatingfront.ac</path>
+    <offsets>
+      <x-m> -25.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seatingfront.ac</path>
+    <offsets>
+      <x-m> -24.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seatingfront.ac</path>
+    <offsets>
+      <x-m> -23.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seatingfront.ac</path>
+    <offsets>
+      <x-m> -22.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seatingfront.ac</path>
+    <offsets>
+      <x-m> -21.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -17.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -16.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+<!-- Economy Class -->
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -15.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -14.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>    
+
+<model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -13.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>    
+
+<model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -12.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>  
+
+<model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -11.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>   
+
+ <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -10.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>   
+
+ <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -9.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>    
+
+<model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -8.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>  
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -7.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>  
+
+<model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -6.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>  
+
+<model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -5.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+ 
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -4.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -2.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -1.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m>  1.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m>  2.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m>  3.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m>  4.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m>  5.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 6.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 7.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>    
+
+<model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 8.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>    
+
+<model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 9.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>  
+
+<model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 10.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>   
+
+ <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 11.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>   
+
+ <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 12.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>    
+
+<model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 13.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>  
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seatingaft.ac</path>
+    <offsets>
+      <x-m> 14.000 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m> -0.100 </z-m>
+    </offsets>
+  </model>  
+
+</PropertyList>
+

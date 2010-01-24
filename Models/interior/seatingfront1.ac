@@ -1,0 +1,4177 @@
+AC3Db
+MATERIAL "default" rgb 0.5 0.5 0.5  amb 0.5 0.5 0.5  emis 0 0 0  spec 0.2 0.2 0.2  shi 128  trans 0
+OBJECT world
+kids 2
+OBJECT group
+name "seating"
+loc 2.23355 -0.00175655 -3.01784
+kids 233
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.130898 0.693149 2.87779
+0.125406 0.63246 2.87779
+0.130915 0.693148 2.82046
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.43202 0.706185
+1 0.438661 0.629574
+0 0.43204 0.629572
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.125423 0.632459 2.82046
+0.130915 0.693148 2.82046
+0.125406 0.63246 2.87779
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.438661 0.629574
+1 0.43202 0.706185
+0 0.438641 0.706185
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0603778 0.197801 2.97139
+0.0281932 0.00344271 2.9714
+0.0603933 0.19779 2.91406
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.94899 0.650935
+1 0.959762 0.574026
+0 0.948996 0.65094
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0282106 0.00343627 2.91408
+0.0603933 0.19779 2.91406
+0.0281932 0.00344271 2.9714
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.959762 0.574026
+1 0.94899 0.650935
+0 0.959756 0.574023
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0282052 0.00330371 2.85677
+0.0604086 0.00349432 2.8568
+0.0604086 0.197779 2.85677
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948985 0.650931
+1 0.948985 0.574046
+0 0.959757 0.573971
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0605388 0.00339586 2.36952
+0.0283365 0.00320512 2.36949
+0.0605388 0.19768 2.36949
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948941 0.650892
+1 0.959714 0.573932
+0 0.948941 0.574007
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.105287 0.327452 2.3695
+0.105302 0.32744 2.31217
+0.105287 0.00339586 2.36954
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.933973 0.574007
+1 0.933968 0.702242
+0 0.933973 0.702246
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.105302 0.00338453 2.31223
+0.105287 0.00339586 2.36954
+0.105302 0.32744 2.31217
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.933968 0.702242
+1 0.933973 0.574007
+0 0.933968 0.574003
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.451911 0.814845 2.25516
+0.61396 0.590676 2.25521
+0.633732 0.814424 2.25521
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.647154 0.496787
+1 0.545304 0.496783
+0 0.647346 0.496805
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.472054 1.04156 3.46952
+0.499981 1.07502 3.46953
+0.633351 0.814462 3.50071
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.647172 0.0102996
+1 0.765779 0.0224766
+0 0.750549 0.0224808
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436524 0.648881 3.44333
+0.431032 0.588201 3.44333
+0.43668 0.648873 2.93523
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.548414 0.2412
+1 0.52155 0.131708
+0 0.548418 0.131707
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431188 0.588186 2.93523
+0.43668 0.648873 2.93523
+0.431032 0.588201 3.44333
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.52155 0.131708
+1 0.548414 0.2412
+0 0.521544 0.2412
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.527492 0.00442523 3.45899
+0.52745 0.00442523 3.45899
+0.527492 0.327429 3.45899
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792867 0.702237
+1 0.792887 0.574415
+0 0.792867 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.527492 0.327429 3.45899
+0.52745 0.00442523 3.45899
+0.403976 0.327429 3.45875
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.852928 0.702237
+1 0.792887 0.574415
+0 0.792867 0.702237
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.403976 0.00442523 3.45875
+0.403976 0.327429 3.45875
+0.52745 0.00442523 3.45899
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792887 0.574415
+1 0.852928 0.702237
+0 0.852928 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0603778 0.00351828 2.97141
+0.0281932 0.00344271 2.9714
+0.0603778 0.197801 2.97139
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948996 0.65094
+1 0.959762 0.574026
+0 0.948996 0.574056
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.404333 0.327429 2.9715
+0.404333 0.00442511 2.9715
+0.404417 0.327429 2.85626
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.852714 0.702237
+1 0.852755 0.574415
+0 0.852755 0.702237
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.404417 0.00442523 2.85626
+0.404417 0.327429 2.85626
+0.404333 0.00442511 2.9715
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.852755 0.574415
+1 0.852714 0.702237
+0 0.852714 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.00533199 0.457328 2.29331
+-0.00926161 0.420711 2.25497
+0.425034 0.458374 2.29347
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.41621 0.870097
+1 0.411353 0.863752
+0 0.41619 0.869921
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0603933 0.19779 2.91406
+0.0282106 0.00343627 2.91408
+0.0604086 0.197779 2.85677
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948985 0.650931
+1 0.959756 0.574023
+0 0.94899 0.650935
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0282106 0.00343627 2.91408
+0.0281909 0.00331503 2.91409
+0.0604086 0.197779 2.85677
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948985 0.650931
+1 0.959763 0.573976
+0 0.959756 0.574023
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0282052 0.00330371 2.85677
+0.0604086 0.197779 2.85677
+0.0281909 0.00331503 2.91409
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.959763 0.573976
+1 0.948985 0.650931
+0 0.959757 0.573971
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0602465 0.00361687 3.45866
+0.028053 0.00349182 3.45863
+0.0602465 0.1979 3.45863
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.949039 0.650979
+1 0.959808 0.574045
+0 0.949039 0.574095
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436524 0.648881 3.44333
+0.130724 0.693157 3.44322
+0.431032 0.588201 3.44333
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.464804 0.668599
+1 0.71762 0.668701
+0 0.46018 0.668596
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.125232 0.632478 3.44322
+0.431032 0.588201 3.44333
+0.130724 0.693157 3.44322
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.71762 0.668701
+1 0.464804 0.668599
+0 0.722243 0.668703
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.614183 1.07531 3.46953
+0.614355 1.07529 2.90757
+0.633351 0.814462 3.50071
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.272799 0.9858
+1 0.407264 0.750209
+0 0.407273 0.973417
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.63354 0.814443 2.87796
+0.633351 0.814462 3.50071
+0.614355 1.07529 2.90757
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.407264 0.750209
+1 0.272799 0.9858
+0 0.272789 0.738449
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+-0.00926161 0.420711 2.25497
+-0.00947475 0.4206 3.50048
+-0.00926161 0.367005 2.25497
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.802408 0.0660099
+1 0.84223 0.0659669
+0 0.802408 0.0660099
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+-0.00947475 0.366892 3.50048
+-0.00926161 0.367005 2.25497
+-0.00947475 0.4206 3.50048
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.84223 0.0659669
+1 0.802408 0.0660099
+0 0.84223 0.0659669
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.614373 1.07529 2.85079
+0.614547 1.07527 2.28186
+0.63354 0.814443 2.87796
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.272789 0.738449
+1 0.407254 0.501682
+0 0.407263 0.727656
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.633732 0.814424 2.25521
+0.63354 0.814443 2.87796
+0.614547 1.07527 2.28186
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.407254 0.501682
+1 0.272789 0.738449
+0 0.272779 0.491097
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0603778 0.327574 2.97139
+0.0603778 0.197801 2.97139
+0.0603933 0.327561 2.91406
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.94899 0.70229
+1 0.948996 0.65094
+0 0.948996 0.702295
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0603933 0.19779 2.91406
+0.0603933 0.327561 2.91406
+0.0603778 0.197801 2.97139
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948996 0.65094
+1 0.94899 0.70229
+0 0.94899 0.650935
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.131072 0.693141 2.31236
+0.125597 0.632636 2.31236
+0.131089 0.69314 2.25504
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.437311 0.706037
+1 0.444097 0.627755
+0 0.437331 0.627755
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.125597 0.632441 2.25503
+0.131089 0.69314 2.25504
+0.125597 0.632636 2.31236
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.444097 0.627755
+1 0.437311 0.706037
+0 0.444097 0.706041
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431597 0.420864 2.25515
+0.105317 0.327429 2.25496
+0.431597 0.327429 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.411376 0.848035
+1 0.411352 0.848035
+0 0.411376 0.863777
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.00512671 0.457219 3.50066
+0.00533199 0.457328 2.29331
+0.431217 0.458431 3.50066
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.493717 0.156815
+1 0.449998 0.0699281
+0 0.493716 0.069886
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+-0.00926161 0.367005 2.25497
+0.00162578 0.340601 2.25497
+0.431597 0.420864 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.411376 0.863777
+1 0.411353 0.850254
+0 0.411353 0.854703
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.63354 0.814443 2.87796
+0.59579 0.367662 3.50066
+0.633351 0.814462 3.50071
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.272799 0.9858
+1 0.0424586 0.985779
+0 0.272789 0.738449
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+-0.00926161 0.420711 2.25497
+-0.00926161 0.367005 2.25497
+0.431597 0.420864 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.411376 0.863777
+1 0.411353 0.854703
+0 0.411353 0.863752
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.00533199 0.457328 2.29331
+0.00512671 0.457219 3.50066
+-0.00926161 0.420711 2.25497
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.802408 0.0660099
+1 0.842236 0.0688964
+0 0.803634 0.0689378
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+-0.00947475 0.4206 3.50048
+-0.00926161 0.420711 2.25497
+0.00512671 0.457219 3.50066
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.842236 0.0688964
+1 0.802408 0.0660099
+0 0.84223 0.0659669
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.00162578 0.340601 2.25497
+0.00141144 0.340489 3.50048
+0.00705695 0.327429 2.25496
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.448609 0.07028
+1 0.49371 0.0691283
+0 0.44861 0.069172
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.00684524 0.327318 3.50048
+0.00705695 0.327429 2.25496
+0.00141144 0.340489 3.50048
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.49371 0.0691283
+1 0.448609 0.07028
+0 0.49371 0.0702366
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.59579 0.367662 3.50066
+0.45153 0.814884 3.50066
+0.633351 0.814462 3.50071
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.647172 0.0102996
+1 0.647363 0.0103181
+0 0.443787 0.0103205
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.00512671 0.457219 3.50066
+0.00560999 0.458431 3.50066
+0.431217 0.458431 3.50066
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.183675 0.884628
+1 0.183675 0.884628
+0 0.183675 0.88442
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.00684524 0.327318 3.50048
+0.431217 0.458431 3.50066
+0.545488 0.327318 3.50048
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.406038 0.119395
+1 0.464091 0.119355
+0 0.406038 0.119395
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.060231 0.327685 3.45875
+0.060231 0.197911 3.45875
+0.0602648 0.327666 3.40131
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.949033 0.702331
+1 0.949044 0.650983
+0 0.949044 0.702338
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.060231 0.197911 3.45875
+0.0602465 0.1979 3.45863
+0.0602648 0.327666 3.40131
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.949033 0.702331
+1 0.949039 0.650979
+0 0.949044 0.650983
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0602648 0.197892 3.40131
+0.0602648 0.327666 3.40131
+0.0602465 0.1979 3.45863
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.949039 0.650979
+1 0.949033 0.702331
+0 0.949033 0.650976
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0603778 0.327574 2.97139
+0.0603933 0.327561 2.91406
+0.105123 0.327574 2.9714
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.108069 0.862208
+1 0.0998784 0.862205
+0 0.108067 0.862208
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.105123 0.327574 2.9714
+0.0603933 0.327561 2.91406
+0.105154 0.32755 2.85678
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0916959 0.862203
+1 0.0998784 0.862205
+0 0.108069 0.862208
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0604086 0.32755 2.85677
+0.105154 0.32755 2.85678
+0.0603933 0.327561 2.91406
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0998784 0.862205
+1 0.0916959 0.862203
+0 0.0916938 0.862203
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.45153 0.814884 3.50066
+0.59579 0.367662 3.50066
+0.436506 0.648881 3.50066
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.571799 0.0103195
+1 0.443787 0.0103205
+0 0.647363 0.0103181
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.59579 0.367662 3.50066
+0.431217 0.458431 3.50066
+0.436506 0.648881 3.50066
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.571799 0.0103195
+1 0.485105 0.0103205
+0 0.443787 0.0103205
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431015 0.588203 3.50066
+0.436506 0.648881 3.50066
+0.431217 0.458431 3.50066
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.464091 0.119355
+1 0.548418 0.119355
+0 0.521551 0.119355
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+-0.00926161 0.367005 2.25497
+-0.00947475 0.366892 3.50048
+0.00162578 0.340601 2.25497
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.802408 0.0681943
+1 0.84223 0.0659669
+0 0.802408 0.0660099
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.00141144 0.340489 3.50048
+0.00162578 0.340601 2.25497
+-0.00947475 0.366892 3.50048
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.84223 0.0659669
+1 0.802408 0.0681943
+0 0.84223 0.0681513
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431587 0.458392 2.29348
+0.431408 0.458412 2.8779
+0.425034 0.458374 2.29347
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0112262 0.884618
+1 0.0947134 0.884625
+0 0.0112266 0.884621
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431408 0.458412 2.8779
+0.431217 0.458431 3.50066
+0.425034 0.458374 2.29347
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0112262 0.884618
+1 0.183675 0.884628
+0 0.0947134 0.884625
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.00533199 0.457328 2.29331
+0.425034 0.458374 2.29347
+0.431217 0.458431 3.50066
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.493717 0.156815
+1 0.450004 0.155554
+0 0.449998 0.0699281
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+-0.00947475 0.366892 3.50048
+-0.00947475 0.4206 3.50048
+0.00512671 0.457219 3.50066
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.463555 0.119356
+1 0.447341 0.119394
+0 0.423561 0.119395
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.104991 0.00361687 3.45868
+0.105011 0.00360924 3.40135
+0.0602465 0.00361687 3.45866
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.949039 0.574095
+1 0.934065 0.574092
+0 0.934071 0.574095
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0602648 0.00360924 3.40134
+0.0602465 0.00361687 3.45866
+0.105011 0.00360924 3.40135
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.934065 0.574092
+1 0.949039 0.574095
+0 0.949033 0.574092
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0602465 0.1979 3.45863
+0.0602465 0.00361687 3.45866
+0.0602648 0.197892 3.40131
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.949033 0.650976
+1 0.949039 0.574095
+0 0.949039 0.650979
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0602648 0.00360924 3.40134
+0.0602648 0.197892 3.40131
+0.0602465 0.00361687 3.45866
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.949039 0.574095
+1 0.949033 0.650976
+0 0.949033 0.574092
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.104991 0.327674 3.45865
+0.105011 0.327666 3.40132
+0.104991 0.00361687 3.45868
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.934071 0.574095
+1 0.934065 0.702331
+0 0.934071 0.702334
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.105011 0.00360924 3.40135
+0.104991 0.00361687 3.45868
+0.105011 0.327666 3.40132
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.934065 0.702331
+1 0.934071 0.574095
+0 0.934065 0.574092
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.00684524 0.327318 3.50048
+0.00141144 0.340489 3.50048
+0.00512671 0.457219 3.50066
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.463555 0.119356
+1 0.41187 0.119395
+0 0.406038 0.119395
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+-0.00947475 0.366892 3.50048
+0.00512671 0.457219 3.50066
+0.00141144 0.340489 3.50048
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.41187 0.119395
+1 0.463555 0.119356
+0 0.423561 0.119395
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.060231 0.197911 3.45875
+0.060231 0.327685 3.45875
+0.104991 0.327685 3.45875
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.934071 0.702338
+1 0.949044 0.702338
+0 0.949044 0.650983
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.00162578 0.340601 2.25497
+0.00705695 0.327429 2.25496
+0.431597 0.420864 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.411376 0.863777
+1 0.411352 0.848035
+0 0.411353 0.850254
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.545488 0.327318 3.50048
+0.431217 0.458431 3.50066
+0.59579 0.367662 3.50066
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.443787 0.0103205
+1 0.485105 0.0103205
+0 0.425423 0.0103922
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.06057 0.327429 2.25496
+0.105317 0.327429 2.25496
+0.431597 0.420864 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.411376 0.863777
+1 0.411352 0.848035
+0 0.411352 0.848035
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0602648 0.197892 3.40131
+0.0602648 0.00360924 3.40134
+0.105011 0.00360924 3.40135
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.934065 0.574092
+1 0.949033 0.574092
+0 0.949033 0.650976
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.105011 0.00360924 3.40135
+0.105011 0.327666 3.40132
+0.0602648 0.197892 3.40131
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.949033 0.650976
+1 0.934065 0.702331
+0 0.934065 0.574092
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0602648 0.327666 3.40131
+0.0602648 0.197892 3.40131
+0.105011 0.327666 3.40132
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.934065 0.702331
+1 0.949033 0.650976
+0 0.949033 0.702331
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.00684524 0.327318 3.50048
+0.00512671 0.457219 3.50066
+0.431217 0.458431 3.50066
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.464091 0.119355
+1 0.463555 0.119356
+0 0.406038 0.119395
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.00705695 0.327429 2.25496
+0.06057 0.327429 2.25496
+0.431597 0.420864 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.411376 0.863777
+1 0.411352 0.848035
+0 0.411352 0.848035
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.104991 0.327685 3.45875
+0.060231 0.327685 3.45875
+0.104991 0.327674 3.45865
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.177674 0.862225
+1 0.177689 0.862226
+0 0.177689 0.862226
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.104991 0.327674 3.45865
+0.060231 0.327685 3.45875
+0.105011 0.327666 3.40132
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.169485 0.862223
+1 0.177689 0.862226
+0 0.177674 0.862225
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0602648 0.327666 3.40131
+0.105011 0.327666 3.40132
+0.060231 0.327685 3.45875
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.177689 0.862226
+1 0.169485 0.862223
+0 0.169483 0.862223
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.52745 0.00442523 3.45899
+0.527492 0.00442523 3.40167
+0.403976 0.00442523 3.45875
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.852928 0.574415
+1 0.792867 0.574415
+0 0.792887 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.404018 0.00442523 3.40143
+0.403976 0.00442523 3.45875
+0.527492 0.00442523 3.40167
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792867 0.574415
+1 0.852928 0.574415
+0 0.852908 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.527534 0.00442523 3.40167
+0.527534 0.327429 3.40167
+0.527492 0.00442523 3.40167
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792867 0.574415
+1 0.792847 0.702237
+0 0.792847 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.527492 0.00442523 3.40167
+0.527534 0.327429 3.40167
+0.404018 0.00442523 3.40143
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.852908 0.574415
+1 0.792847 0.702237
+0 0.792867 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.404018 0.327429 3.40143
+0.404018 0.00442523 3.40143
+0.527534 0.327429 3.40167
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792847 0.702237
+1 0.852908 0.574415
+0 0.852908 0.702237
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0282288 0.0033719 3.45747
+0.0604312 0.197847 3.45743
+0.105192 0.00355119 3.45779
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.934004 0.574069
+1 0.948978 0.650958
+0 0.95975 0.573998
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.403976 0.327429 3.45875
+0.403976 0.00442523 3.45875
+0.404018 0.327429 3.40143
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.852908 0.702237
+1 0.852928 0.574415
+0 0.852928 0.702237
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.404018 0.00442523 3.40143
+0.404018 0.327429 3.40143
+0.403976 0.00442523 3.45875
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.852928 0.574415
+1 0.852908 0.702237
+0 0.852908 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.59579 0.367662 2.2552
+0.59579 0.367662 3.50066
+0.63354 0.814443 2.87796
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.272789 0.738449
+1 0.0424586 0.985779
+0 0.0424586 0.491097
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.59579 0.367662 2.2552
+0.560384 0.327429 2.2552
+0.545488 0.327318 3.50048
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0246969 0.0529121
+1 0.024759 0.605197
+0 0.0471324 0.605196
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.633732 0.814424 2.25521
+0.59579 0.367662 2.2552
+0.63354 0.814443 2.87796
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.272789 0.738449
+1 0.0424586 0.491097
+0 0.272779 0.491097
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436506 0.648881 3.50066
+0.431015 0.588203 3.50066
+0.130706 0.693158 3.50054
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0065652 0.909579
+1 0.0514247 0.909559
+0 0.0522449 0.909559
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.125215 0.632479 3.50054
+0.130706 0.693158 3.50054
+0.431015 0.588203 3.50066
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0514247 0.909559
+1 0.0065652 0.909579
+0 0.00574498 0.909579
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.527492 0.00442523 3.45899
+0.527534 0.00442523 3.40167
+0.52745 0.00442523 3.45899
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792887 0.574415
+1 0.792847 0.574415
+0 0.792867 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.527492 0.00442523 3.40167
+0.52745 0.00442523 3.45899
+0.527534 0.00442523 3.40167
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792847 0.574415
+1 0.792887 0.574415
+0 0.792867 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436506 0.648881 3.50066
+0.431015 0.588203 3.50066
+0.436524 0.648881 3.44333
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.548418 0.131707
+1 0.521551 0.119355
+0 0.548418 0.119355
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431032 0.588201 3.44333
+0.436524 0.648881 3.44333
+0.431015 0.588203 3.50066
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.521551 0.119355
+1 0.548418 0.131707
+0 0.52155 0.131708
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.59579 0.367662 2.2552
+0.545488 0.327318 3.50048
+0.59579 0.367662 3.50066
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0471324 0.0528308
+1 0.0246969 0.0529121
+0 0.0471324 0.605196
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.527534 0.327429 3.40167
+0.527534 0.165928 3.40167
+0.527492 0.327429 3.45899
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792867 0.702237
+1 0.792847 0.638326
+0 0.792847 0.702237
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.527492 0.00442523 3.45899
+0.527492 0.327429 3.45899
+0.527534 0.165928 3.40167
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792847 0.638326
+1 0.792867 0.702237
+0 0.792867 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.527534 0.00442523 3.40167
+0.527492 0.00442523 3.45899
+0.527534 0.165928 3.40167
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792847 0.638326
+1 0.792867 0.574415
+0 0.792847 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.105141 0.00353342 3.45819
+0.0603802 0.197829 3.45783
+0.105141 0.327602 3.45783
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.934021 0.702305
+1 0.948995 0.650951
+0 0.934021 0.574062
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0606284 0.197784 3.4001
+0.0284259 0.0033086 3.40014
+0.105391 0.00348824 3.40047
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.933938 0.574044
+1 0.959684 0.573973
+0 0.948912 0.650933
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0604312 0.197847 3.45743
+0.0606284 0.197784 3.4001
+0.105192 0.00355119 3.45779
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.934004 0.574069
+1 0.948912 0.650933
+0 0.948978 0.650958
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.105391 0.00348824 3.40047
+0.105192 0.00355119 3.45779
+0.0606284 0.197784 3.4001
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948912 0.650933
+1 0.934004 0.574069
+0 0.933938 0.574044
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0604312 0.197847 3.45743
+0.0282288 0.0033719 3.45747
+0.0606284 0.197784 3.4001
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948912 0.650933
+1 0.95975 0.573998
+0 0.948978 0.650958
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0284259 0.0033086 3.40014
+0.0606284 0.197784 3.4001
+0.0282288 0.0033719 3.45747
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.95975 0.573998
+1 0.948912 0.650933
+0 0.959684 0.573973
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.105192 0.00355119 3.45779
+0.105391 0.00348824 3.40047
+0.0282288 0.0033719 3.45747
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.95975 0.573998
+1 0.933938 0.574044
+0 0.934004 0.574069
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0284259 0.0033086 3.40014
+0.0282288 0.0033719 3.45747
+0.105391 0.00348824 3.40047
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.933938 0.574044
+1 0.95975 0.573998
+0 0.959684 0.573973
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0605388 0.327452 2.36949
+0.0605388 0.19768 2.36949
+0.0605543 0.32744 2.31217
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948936 0.702242
+1 0.948941 0.650892
+0 0.948941 0.702246
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0605543 0.197669 2.31217
+0.0605543 0.32744 2.31217
+0.0605388 0.19768 2.36949
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948941 0.650892
+1 0.948936 0.702242
+0 0.948936 0.650887
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.404774 0.327429 2.36961
+0.404774 0.00442511 2.36961
+0.404816 0.327429 2.31229
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.85252 0.702237
+1 0.85254 0.574415
+0 0.85254 0.702237
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.404816 0.00397951 2.31229
+0.404816 0.327429 2.31229
+0.404774 0.00442511 2.36961
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.85254 0.574415
+1 0.85252 0.702237
+0 0.85252 0.574238
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.528393 0.327429 2.2552
+0.560384 0.327429 2.2552
+0.431597 0.327429 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.00575155 0.862183
+1 0.00575888 0.862183
+0 0.0057587 0.862183
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431597 0.327429 2.25515
+0.560384 0.327429 2.2552
+0.431597 0.420864 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.411376 0.863777
+1 0.411382 0.848035
+0 0.411376 0.848035
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431597 0.458392 2.25515
+0.431597 0.420864 2.25515
+0.560384 0.327429 2.2552
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.411382 0.848035
+1 0.411376 0.863777
+0 0.411376 0.8701
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.425034 0.458374 2.29347
+0.431597 0.458392 2.25515
+0.431587 0.458392 2.29348
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0112266 0.884621
+1 0.00575155 0.884621
+0 0.0112262 0.884618
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436872 0.648864 2.31248
+0.131072 0.693141 2.31236
+0.436889 0.648863 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.903837 0.408035
+1 0.986475 0.0187532
+0 0.986647 0.408014
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.131089 0.69314 2.25504
+0.436889 0.648863 2.25515
+0.131072 0.693141 2.31236
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.986475 0.0187532
+1 0.903837 0.408035
+0 0.903665 0.0187749
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.614355 1.07529 2.90757
+0.451721 0.814865 2.87791
+0.63354 0.814443 2.87796
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.647163 0.253543
+1 0.647355 0.253562
+0 0.7659 0.241979
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431188 0.588186 2.93523
+0.431032 0.588201 3.44333
+0.431206 0.588183 2.8779
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0947134 0.906859
+1 0.175486 0.906863
+0 0.102903 0.90686
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431015 0.588203 3.50066
+0.431217 0.458431 3.50066
+0.431032 0.588201 3.44333
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.52155 0.131708
+1 0.464091 0.119355
+0 0.521551 0.119355
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431032 0.588201 3.44333
+0.431217 0.458431 3.50066
+0.431206 0.588183 2.8779
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.521542 0.253553
+1 0.464091 0.119355
+0 0.52155 0.131708
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431408 0.458412 2.8779
+0.431206 0.588183 2.8779
+0.431217 0.458431 3.50066
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.464091 0.119355
+1 0.521542 0.253553
+0 0.464083 0.253553
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436872 0.648864 2.31248
+0.431396 0.588361 2.31248
+0.131072 0.693141 2.31236
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.718895 0.616617
+1 0.463478 0.616509
+0 0.45882 0.616508
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.125597 0.632636 2.31236
+0.131072 0.693141 2.31236
+0.431396 0.588361 2.31248
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.463478 0.616509
+1 0.718895 0.616617
+0 0.723552 0.616617
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+-0.00926161 0.420711 2.25497
+0.431597 0.420864 2.25515
+0.425034 0.458374 2.29347
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.41621 0.870097
+1 0.411376 0.863777
+0 0.411353 0.863752
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.425034 0.458374 2.29347
+0.431597 0.420864 2.25515
+0.431597 0.458392 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.411376 0.8701
+1 0.411376 0.863777
+0 0.41621 0.870097
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431015 0.588203 3.50066
+0.431032 0.588201 3.44333
+0.125215 0.632479 3.50054
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.722258 0.617555
+1 0.464804 0.668599
+0 0.464818 0.61745
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.125232 0.632478 3.44322
+0.125215 0.632479 3.50054
+0.431032 0.588201 3.44333
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.464804 0.668599
+1 0.722258 0.617555
+0 0.722243 0.668703
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436506 0.648881 3.50066
+0.130706 0.693158 3.50054
+0.436524 0.648881 3.44333
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.908767 0.359951
+1 0.990399 0.00303158
+0 0.990572 0.35993
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.130724 0.693157 3.44322
+0.436524 0.648881 3.44333
+0.130706 0.693158 3.50054
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.990399 0.00303158
+1 0.908767 0.359951
+0 0.908599 0.00305255
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.451721 0.814865 2.87791
+0.50017 1.075 2.85079
+0.614373 1.07529 2.85079
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.7659 0.264157
+1 0.76577 0.264157
+0 0.647355 0.253562
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.130706 0.693158 3.50054
+0.125215 0.632479 3.50054
+0.130724 0.693157 3.44322
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.435478 0.7055
+1 0.442216 0.629155
+0 0.435501 0.629152
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.125232 0.632478 3.44322
+0.130724 0.693157 3.44322
+0.125215 0.632479 3.50054
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.442216 0.629155
+1 0.435478 0.7055
+0 0.442196 0.705503
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.499981 1.07502 3.46953
+0.614183 1.07531 3.46953
+0.633351 0.814462 3.50071
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.647172 0.0102996
+1 0.765909 0.0224766
+0 0.765779 0.0224766
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0605388 0.19768 2.36949
+0.0283365 0.00320512 2.36949
+0.0605543 0.197669 2.31217
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948936 0.650887
+1 0.959714 0.573932
+0 0.948941 0.650892
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0283518 0.0031938 2.3122
+0.0605543 0.197669 2.31217
+0.0283365 0.00320512 2.36949
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.959714 0.573932
+1 0.948936 0.650887
+0 0.959708 0.573928
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.451721 0.814865 2.87791
+0.614373 1.07529 2.85079
+0.63354 0.814443 2.87796
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.647163 0.253543
+1 0.7659 0.264157
+0 0.647355 0.253562
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.472244 1.04155 2.85079
+0.451721 0.814865 2.87791
+0.472418 1.04153 2.28186
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.72227 0.381997
+1 0.621911 0.253552
+0 0.722278 0.259397
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.472418 1.04153 2.28186
+0.451721 0.814865 2.87791
+0.451911 0.814845 2.25516
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.621902 0.38775
+1 0.621911 0.253552
+0 0.72227 0.381997
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.451721 0.814865 2.87791
+0.436698 0.648872 2.87791
+0.451911 0.814845 2.25516
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.621902 0.38775
+1 0.548414 0.253553
+0 0.621911 0.253552
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436698 0.648872 2.87791
+0.436715 0.648872 2.82058
+0.451911 0.814845 2.25516
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.621902 0.38775
+1 0.548414 0.265905
+0 0.548414 0.253553
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436715 0.648872 2.82058
+0.436872 0.648864 2.31248
+0.451911 0.814845 2.25516
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.621902 0.38775
+1 0.54841 0.375398
+0 0.548414 0.265905
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436889 0.648863 2.25515
+0.451911 0.814845 2.25516
+0.436872 0.648864 2.31248
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.418607 0.902193
+1 0.411377 0.93016
+0 0.411376 0.902193
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431396 0.588361 2.31248
+0.431396 0.588164 2.25515
+0.125597 0.632636 2.31236
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.723552 0.616617
+1 0.463478 0.668954
+0 0.463478 0.616509
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.125597 0.632441 2.25503
+0.125597 0.632636 2.31236
+0.431396 0.588164 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.463478 0.668954
+1 0.723552 0.616617
+0 0.723552 0.669063
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.499981 1.07502 3.46953
+0.472054 1.04156 3.46952
+0.500154 1.07501 2.90757
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.737094 0.247161
+1 0.722287 0.126064
+0 0.737101 0.126062
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.472227 1.04155 2.90756
+0.500154 1.07501 2.90757
+0.472054 1.04156 3.46952
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.722287 0.126064
+1 0.737094 0.247161
+0 0.722279 0.247163
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.614373 1.07529 2.85079
+0.50017 1.075 2.85079
+0.614547 1.07527 2.28186
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.765891 0.486377
+1 0.76577 0.264157
+0 0.7659 0.264157
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.500344 1.07499 2.28186
+0.614547 1.07527 2.28186
+0.50017 1.075 2.85079
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.76577 0.264157
+1 0.765891 0.486377
+0 0.765762 0.486377
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.45153 0.814884 3.50066
+0.472054 1.04156 3.46952
+0.633351 0.814462 3.50071
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.647172 0.0102996
+1 0.750549 0.0224808
+0 0.647363 0.0103181
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.50017 1.075 2.85079
+0.472244 1.04155 2.85079
+0.500344 1.07499 2.28186
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.737085 0.381997
+1 0.722278 0.259397
+0 0.737093 0.259397
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.472418 1.04153 2.28186
+0.500344 1.07499 2.28186
+0.472244 1.04155 2.85079
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.722278 0.259397
+1 0.737085 0.381997
+0 0.72227 0.381997
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.451721 0.814865 2.87791
+0.472244 1.04155 2.85079
+0.50017 1.075 2.85079
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.737093 0.259397
+1 0.722278 0.259397
+0 0.621911 0.253552
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.472227 1.04155 2.90756
+0.451721 0.814865 2.87791
+0.500154 1.07501 2.90757
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.737094 0.247161
+1 0.621911 0.253552
+0 0.722279 0.247163
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.614183 1.07531 3.46953
+0.499981 1.07502 3.46953
+0.614355 1.07529 2.90757
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.7659 0.241979
+1 0.765779 0.0224766
+0 0.765909 0.0224766
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.500154 1.07501 2.90757
+0.614355 1.07529 2.90757
+0.499981 1.07502 3.46953
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.765779 0.0224766
+1 0.7659 0.241979
+0 0.76577 0.241979
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.472054 1.04156 3.46952
+0.45153 0.814884 3.50066
+0.472227 1.04155 2.90756
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.722279 0.247163
+1 0.621919 0.119354
+0 0.722287 0.126064
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.472227 1.04155 2.90756
+0.45153 0.814884 3.50066
+0.451721 0.814865 2.87791
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.621911 0.253552
+1 0.621919 0.119354
+0 0.722279 0.247163
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.45153 0.814884 3.50066
+0.436506 0.648881 3.50066
+0.451721 0.814865 2.87791
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.621911 0.253552
+1 0.548418 0.119355
+0 0.621919 0.119354
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436506 0.648881 3.50066
+0.436524 0.648881 3.44333
+0.451721 0.814865 2.87791
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.621911 0.253552
+1 0.548418 0.131707
+0 0.548418 0.119355
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436524 0.648881 3.44333
+0.43668 0.648873 2.93523
+0.451721 0.814865 2.87791
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.621911 0.253552
+1 0.548414 0.2412
+0 0.548418 0.131707
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436698 0.648872 2.87791
+0.451721 0.814865 2.87791
+0.43668 0.648873 2.93523
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.548414 0.2412
+1 0.621911 0.253552
+0 0.548414 0.253553
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.500154 1.07501 2.90757
+0.451721 0.814865 2.87791
+0.614355 1.07529 2.90757
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.7659 0.241979
+1 0.647355 0.253562
+0 0.76577 0.241979
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.527848 0.327429 2.97174
+0.527848 0.00442511 2.97174
+0.404333 0.327429 2.9715
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.852755 0.702237
+1 0.792694 0.574415
+0 0.792694 0.702237
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.404333 0.00442511 2.9715
+0.404333 0.327429 2.9715
+0.527848 0.00442511 2.97174
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792694 0.574415
+1 0.852755 0.702237
+0 0.852755 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.105123 0.327574 2.9714
+0.105123 0.00351852 2.97143
+0.0603778 0.327574 2.97139
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948996 0.702295
+1 0.934028 0.574056
+0 0.934028 0.702295
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0603778 0.327574 2.97139
+0.105123 0.00351852 2.97143
+0.0603778 0.197801 2.97139
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948996 0.65094
+1 0.934028 0.574056
+0 0.948996 0.702295
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0603778 0.00351828 2.97141
+0.0603778 0.197801 2.97139
+0.105123 0.00351852 2.97143
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.934028 0.574056
+1 0.948996 0.65094
+0 0.948996 0.574056
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.527933 0.00442523 2.8565
+0.527933 0.327429 2.8565
+0.404417 0.00442523 2.85626
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.852714 0.574415
+1 0.792653 0.702237
+0 0.792653 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.404417 0.327429 2.85626
+0.404417 0.00442523 2.85626
+0.527933 0.327429 2.8565
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792653 0.702237
+1 0.852714 0.574415
+0 0.852714 0.702237
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.105287 0.327452 2.3695
+0.0605388 0.327452 2.36949
+0.105302 0.32744 2.31217
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0138964 0.862185
+1 0.0220851 0.862187
+0 0.0220872 0.862187
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0605543 0.32744 2.31217
+0.105302 0.32744 2.31217
+0.0605388 0.327452 2.36949
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0220851 0.862187
+1 0.0138964 0.862185
+0 0.0138964 0.862185
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0604086 0.197779 2.85677
+0.0604086 0.00349432 2.8568
+0.105154 0.00349432 2.85681
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.934017 0.574046
+1 0.948985 0.574046
+0 0.948985 0.650931
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.105154 0.00349432 2.85681
+0.105154 0.32755 2.85678
+0.0604086 0.197779 2.85677
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948985 0.650931
+1 0.934017 0.702285
+0 0.934017 0.574046
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0604086 0.32755 2.85677
+0.0604086 0.197779 2.85677
+0.105154 0.32755 2.85678
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.934017 0.702285
+1 0.948985 0.650931
+0 0.948985 0.702285
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.527848 0.327429 2.97174
+0.527933 0.327429 2.8565
+0.527848 0.00442511 2.97174
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792694 0.574415
+1 0.792653 0.702237
+0 0.792694 0.702237
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.527933 0.00442523 2.8565
+0.527848 0.00442511 2.97174
+0.527933 0.327429 2.8565
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792653 0.702237
+1 0.792694 0.574415
+0 0.792653 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.527629 0.327429 2.97174
+0.348082 0.327429 2.9715
+0.527752 0.327429 2.8565
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0916554 0.862183
+1 0.108084 0.862183
+0 0.108118 0.862183
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.348204 0.327429 2.85626
+0.527752 0.327429 2.8565
+0.348082 0.327429 2.9715
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.108084 0.862183
+1 0.0916554 0.862183
+0 0.0916213 0.862183
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436715 0.648872 2.82058
+0.130915 0.693148 2.82046
+0.431223 0.588182 2.82058
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.464788 0.662532
+1 0.717838 0.66656
+0 0.46016 0.662532
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.125423 0.632459 2.82046
+0.431223 0.588182 2.82058
+0.130915 0.693148 2.82046
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.717838 0.66656
+1 0.464788 0.662532
+0 0.722466 0.66656
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.528288 0.327429 2.36985
+0.528332 0.327429 2.31252
+0.528288 0.00442523 2.36985
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.79248 0.574415
+1 0.792459 0.702237
+0 0.79248 0.702237
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.528332 0.00442523 2.31253
+0.528288 0.00442523 2.36985
+0.528332 0.327429 2.31252
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792459 0.702237
+1 0.79248 0.574415
+0 0.792459 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436872 0.648864 2.31248
+0.436715 0.648872 2.82058
+0.431396 0.588361 2.31248
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.521621 0.375398
+1 0.548414 0.265905
+0 0.54841 0.375398
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436715 0.648872 2.82058
+0.431223 0.588182 2.82058
+0.431396 0.588361 2.31248
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.521621 0.375398
+1 0.521542 0.265905
+0 0.548414 0.265905
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431396 0.588164 2.25515
+0.431396 0.588361 2.31248
+0.431223 0.588182 2.82058
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.086525 0.906859
+1 0.0139405 0.90689
+0 0.00575155 0.906856
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436698 0.648872 2.87791
+0.130898 0.693149 2.87779
+0.436715 0.648872 2.82058
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.899236 0.396516
+1 0.994527 0.0171737
+0 0.994724 0.396495
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.130915 0.693148 2.82046
+0.436715 0.648872 2.82058
+0.130898 0.693149 2.87779
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.994527 0.0171737
+1 0.899236 0.396516
+0 0.899038 0.0171948
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.105123 0.327574 2.9714
+0.105154 0.32755 2.85678
+0.105123 0.00351852 2.97143
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.934028 0.574056
+1 0.934017 0.702285
+0 0.934028 0.702295
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.105154 0.00349432 2.85681
+0.105123 0.00351852 2.97143
+0.105154 0.32755 2.85678
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.934017 0.702285
+1 0.934028 0.574056
+0 0.934017 0.574046
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.105287 0.327452 2.3695
+0.105287 0.00339586 2.36954
+0.0605388 0.327452 2.36949
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948941 0.702246
+1 0.933973 0.574007
+0 0.933973 0.702246
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0605388 0.327452 2.36949
+0.105287 0.00339586 2.36954
+0.0605388 0.19768 2.36949
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948941 0.650892
+1 0.933973 0.574007
+0 0.948941 0.702246
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0605388 0.00339586 2.36952
+0.0605388 0.19768 2.36949
+0.105287 0.00339586 2.36954
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.933973 0.574007
+1 0.948941 0.650892
+0 0.948941 0.574007
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.633732 0.814424 2.25521
+0.61396 0.590676 2.25521
+0.59579 0.367662 2.2552
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0424586 0.505003
+1 0.15743 0.504999
+0 0.272779 0.505003
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.451911 0.814845 2.25516
+0.59579 0.367662 2.2552
+0.61396 0.590676 2.25521
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.545304 0.496783
+1 0.443787 0.496787
+0 0.647346 0.496805
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0603933 0.327561 2.91406
+0.0603933 0.19779 2.91406
+0.0604086 0.32755 2.85677
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948985 0.702285
+1 0.94899 0.650935
+0 0.94899 0.70229
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0604086 0.197779 2.85677
+0.0604086 0.32755 2.85677
+0.0603933 0.19779 2.91406
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.94899 0.650935
+1 0.948985 0.702285
+0 0.948985 0.650931
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.528288 0.00442523 2.36985
+0.404774 0.00442511 2.36961
+0.528288 0.327429 2.36985
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.79248 0.702237
+1 0.85254 0.574415
+0 0.79248 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.404774 0.327429 2.36961
+0.528288 0.327429 2.36985
+0.404774 0.00442511 2.36961
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.85254 0.574415
+1 0.79248 0.702237
+0 0.85254 0.702237
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431206 0.588183 2.8779
+0.431223 0.588182 2.82058
+0.125406 0.63246 2.87779
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.719811 0.617836
+1 0.466053 0.669053
+0 0.466067 0.61773
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.125423 0.632459 2.82046
+0.125406 0.63246 2.87779
+0.431223 0.588182 2.82058
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.466053 0.669053
+1 0.719811 0.617836
+0 0.719796 0.66916
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.43668 0.648873 2.93523
+0.431188 0.588186 2.93523
+0.13088 0.69315 2.93511
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0065912 1
+1 0.0514505 0.999981
+0 0.0522709 0.999981
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.125388 0.632462 2.93511
+0.13088 0.69315 2.93511
+0.431188 0.588186 2.93523
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.466107 0.618423
+1 0.716582 0.618518
+0 0.721163 0.618518
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.43668 0.648873 2.93523
+0.13088 0.69315 2.93511
+0.436698 0.648872 2.87791
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.908523 0.371661
+1 0.981159 0.0108757
+0 0.981312 0.37164
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.130898 0.693149 2.87779
+0.436698 0.648872 2.87791
+0.13088 0.69315 2.93511
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.981159 0.0108757
+1 0.908523 0.371661
+0 0.908373 0.0108969
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431597 0.458392 2.25515
+0.560384 0.327429 2.2552
+0.59579 0.367662 2.2552
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.443787 0.496787
+1 0.425474 0.496788
+0 0.485088 0.496808
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.105302 0.32744 2.31217
+0.0605543 0.197669 2.31217
+0.105302 0.00338453 2.31223
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.933968 0.574003
+1 0.948936 0.650887
+0 0.933968 0.702242
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0283518 0.0031938 2.3122
+0.105302 0.00338453 2.31223
+0.0605543 0.197669 2.31217
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.948936 0.650887
+1 0.933968 0.574003
+0 0.959708 0.573928
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.0605543 0.32744 2.31217
+0.0605543 0.197669 2.31217
+0.105302 0.32744 2.31217
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.933968 0.702242
+1 0.948936 0.650887
+0 0.948936 0.702242
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.528269 0.327429 2.36985
+0.348723 0.327429 2.36961
+0.528332 0.327429 2.31252
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0139475 0.862183
+1 0.0221021 0.862183
+0 0.0221363 0.862183
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.348784 0.327429 2.31229
+0.528332 0.327429 2.31252
+0.348723 0.327429 2.36961
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0221021 0.862183
+1 0.0139475 0.862183
+0 0.0139133 0.862183
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.614547 1.07527 2.28186
+0.451911 0.814845 2.25516
+0.633732 0.814424 2.25521
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.647154 0.496787
+1 0.647346 0.496805
+0 0.765891 0.486377
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.451911 0.814845 2.25516
+0.436889 0.648863 2.25515
+0.59579 0.367662 2.2552
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.443787 0.496787
+1 0.571791 0.496807
+0 0.647346 0.496805
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.59579 0.367662 2.2552
+0.436889 0.648863 2.25515
+0.431597 0.458392 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.485088 0.496808
+1 0.571791 0.496807
+0 0.443787 0.496787
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431597 0.458392 2.25515
+0.436889 0.648863 2.25515
+0.431396 0.588164 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.411376 0.891966
+1 0.411376 0.902193
+0 0.411376 0.8701
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.436889 0.648863 2.25515
+0.131089 0.69314 2.25504
+0.431396 0.588164 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.463478 0.668954
+1 0.718881 0.66906
+0 0.458805 0.668951
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.125597 0.632441 2.25503
+0.431396 0.588164 2.25515
+0.131089 0.69314 2.25504
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.718881 0.66906
+1 0.463478 0.668954
+0 0.723552 0.669063
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431206 0.588183 2.8779
+0.431408 0.458412 2.8779
+0.431223 0.588182 2.82058
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.521542 0.265905
+1 0.464083 0.253553
+0 0.521542 0.253553
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431223 0.588182 2.82058
+0.431408 0.458412 2.8779
+0.431396 0.588164 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.521534 0.387751
+1 0.464083 0.253553
+0 0.521542 0.265905
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431396 0.588164 2.25515
+0.431408 0.458412 2.8779
+0.431597 0.458392 2.25515
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.464074 0.387751
+1 0.464083 0.253553
+0 0.521534 0.387751
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431587 0.458392 2.29348
+0.431597 0.458392 2.25515
+0.431408 0.458412 2.8779
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.0947134 0.884625
+1 0.00575155 0.884621
+0 0.0112266 0.884621
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.13088 0.69315 2.93511
+0.125388 0.632462 2.93511
+0.130898 0.693149 2.87779
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.433949 0.699457
+1 0.440626 0.630592
+0 0.433971 0.630592
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.125406 0.63246 2.87779
+0.130898 0.693149 2.87779
+0.125388 0.632462 2.93511
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.440626 0.630592
+1 0.433949 0.699457
+0 0.440604 0.699458
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.528332 0.00442523 2.31253
+0.528332 0.327429 2.31252
+0.404816 0.00397951 2.31229
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.85252 0.574238
+1 0.792459 0.702237
+0 0.792459 0.574415
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.404816 0.327429 2.31229
+0.404816 0.00397951 2.31229
+0.528332 0.327429 2.31252
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.792459 0.702237
+1 0.85252 0.574238
+0 0.85252 0.702237
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.472418 1.04153 2.28186
+0.451911 0.814845 2.25516
+0.614547 1.07527 2.28186
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.765891 0.486377
+1 0.647346 0.496805
+0 0.750532 0.486377
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.431188 0.588186 2.93523
+0.431206 0.588183 2.8779
+0.125388 0.632462 2.93511
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.721163 0.618518
+1 0.466092 0.664559
+0 0.466107 0.618423
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.125406 0.63246 2.87779
+0.125388 0.632462 2.93511
+0.431206 0.588183 2.8779
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.466092 0.664559
+1 0.721163 0.618518
+0 0.721148 0.664653
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.500344 1.07499 2.28186
+0.472418 1.04153 2.28186
+0.614547 1.07527 2.28186
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0.765891 0.486377
+1 0.750532 0.486377
+0 0.765762 0.486377
+kids 0
+OBJECT group
+name "seating"
+loc 2.23355 -0.00175655 -3.01784
+kids 12
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.536498 0.00162542 1.00273
+0.536498 0.324629 1.00273
+0.536498 0.163128 1.00273
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+0 0.169534 0.80684
+1 0.169534 0.862183
+2 0.169534 0.834512
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.116544 0.324811 3.42829
+0.116587 0.324809 3.38027
+0.116587 0.324809 3.38027
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+0 0.595062 0.862214
+1 0.586873 0.862213
+2 0.586873 0.862213
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.501404 0.00190371 5.6267
+0.501404 0.324906 5.6267
+0.501404 0.163405 5.6267
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+0 0.982035 0.806888
+1 0.982035 0.86223
+2 0.982035 0.834559
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.116559 0.195035 3.38027
+0.116513 0.195037 3.42829
+0.116513 0.195037 3.42829
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+0 0.586873 0.839979
+1 0.595063 0.839979
+2 0.595063 0.839979
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.116513 0.195037 3.42829
+0.116559 0.195035 3.38027
+0.116559 0.195035 3.38027
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+0 0.595063 0.839979
+1 0.586873 0.839979
+2 0.586873 0.839979
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.116544 0.324811 3.42829
+0.116513 0.195037 3.42829
+0.116513 0.195037 3.42829
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+0 0.595062 0.862214
+1 0.595063 0.839979
+2 0.595063 0.839979
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.116587 0.324809 3.38027
+0.116603 0.324808 3.33227
+0.116587 0.324809 3.38027
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+0 0.586873 0.862213
+1 0.578685 0.862213
+2 0.586873 0.862213
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.116559 0.195035 3.38027
+0.116438 0.000562073 3.38028
+0.116559 0.195035 3.38027
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+0 0.586873 0.839979
+1 0.586876 0.806658
+2 0.586873 0.839979
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.116438 0.000562073 3.38028
+0.116559 0.195035 3.38027
+0.116559 0.195035 3.38027
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+0 0.586876 0.806658
+1 0.586873 0.839979
+2 0.586873 0.839979
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.116559 0.195035 3.38027
+0.116559 0.262969 3.38027
+0.116559 0.195035 3.38027
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+0 0.586873 0.839979
+1 0.586874 0.851618
+2 0.586873 0.839979
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.116559 0.262969 3.38027
+0.116559 0.195035 3.38027
+0.116559 0.195035 3.38027
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+0 0.586874 0.851618
+1 0.586873 0.839979
+2 0.586873 0.839979
+kids 0
+OBJECT poly
+name "seating"
+loc 1.38283e-005 0 -2.67029e-005
+texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+crease 45.000000
+numvert 3
+0.338066 0.324432 2.87628
+0.338091 0.324432 2.82827
+0.338066 0.324432 2.87628
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+0 0.500907 0.862149
+1 0.492718 0.862149
+2 0.500907 0.862149
+kids 0

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <!-- Cabin Sections -->
+  <model>
+    <path>Aircraft/A340-600/Models/interior/cabins.xml</path>
+<condition>
+ <equals>
+			             <property>sim/current-view/internal</property>
+                                            <value type="bool">true</value>
+ </equals>
+  </condition>
+
+  </model>
+
+  <!-- Seats -->
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seats.xml</path>
+    <condition>
+ <equals>
+			             <property>sim/current-view/internal</property>
+                                            <value type="bool">true</value>
+ </equals>
+  </condition>
+  </model>
+
+  <!-- Dividers/seperators -->
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seperators.xml</path>
+  
+<condition>
+ <equals>
+			             <property>sim/current-view/internal</property>
+                                            <value type="bool">true</value>
+ </equals>
+  </condition>
+</model>
+
+
+</PropertyList>
+

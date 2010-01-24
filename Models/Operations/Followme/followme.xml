@@ -1,0 +1,24 @@
+<PropertyList>
+ 
+<path>followme.ac</path>
+
+<animation>
+<type>rotate</type>
+<object-name>followme</object-name>
+<property>controls/flight/aileron</property>
+<factor>-15</factor>
+<center>
+   <x-m>4.0</x-m>
+   <y-m>-0.0</y-m>
+   <z-m>0.0</z-m>
+</center>
+<axis>
+   <x>0.0</x>
+   <y>0.0</y>
+   <z>1.0</z>
+</axis>
+</animation>
+ 
+
+</PropertyList>
+ 
