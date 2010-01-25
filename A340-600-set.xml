@@ -292,7 +292,7 @@ During turbulant conditions, The seatbelt warning sound should be initiated by t
        <command>nasal</command>
        <script>
 	  var mal = gui.Dialog.new("/sim/gui/dialogs/Boeing747/menu/dialog", 
-                                                              "Aircraft/A340-600/Dialogs/Announcements-dialog.xml");
+                                                              "Aircraft/A340-600/Dialogs/announcements-dialog.xml");
         mal.open();
        </script>
       </binding>
@@ -304,7 +304,7 @@ During turbulant conditions, The seatbelt warning sound should be initiated by t
        <command>nasal</command>
        <script>
 	  var mal = gui.Dialog.new("/sim/gui/dialogs/Boeing747/menu/dialog", 
-                                                              "Aircraft/A340-600/Dialogs/Airportoperations-dialog.xml");
+                                                              "Aircraft/A340-600/Dialogs/airportoperations-dialog.xml");
         mal.open();
        </script>
       </binding>
