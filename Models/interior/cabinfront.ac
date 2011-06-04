@@ -7,7 +7,7 @@ kids 6
 OBJECT poly
 name "poly"
 loc 19.1019 6.54378 -37.402
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seperator2.png"
+texture "/Aircraft/A340-600/Models/interior/seperator2.png"
 crease 45.000000
 numvert 13
 0 -1.18258 2.17424
@@ -44,7 +44,7 @@ kids 0
 OBJECT poly
 name "blah"
 loc 6.2061 3.78001 2.84121
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/Interior2.png"
+texture "/Aircraft/A340-600/Models/interior/Interior2.png"
 crease 9.607774
 numvert 26
 18.4694 3.04981 -43.0093
@@ -222,7 +222,7 @@ kids 0
 OBJECT poly
 name "blah"
 loc 34.4183 3.78771 -77.6507
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/Interior2.png"
+texture "/Aircraft/A340-600/Models/interior/Interior2.png"
 crease 9.607774
 numvert 26
 -9.71532 3.96216 42.4769
@@ -400,7 +400,7 @@ kids 0
 OBJECT poly
 name "cabin"
 loc 56.8159 0 -20.7681
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/Interior.png"
+texture "/Aircraft/A340-600/Models/interior/Interior.png"
 crease 45.000000
 numvert 130
 -32.0902 7.70913 -14.9213
@@ -2014,7 +2014,7 @@ kids 0
 OBJECT poly
 name "poly"
 loc 20.281 0 -37.4038
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/Interior.png"
+texture "/Aircraft/A340-600/Models/interior/Interior.png"
 crease 45.000000
 numvert 4
 4.43347 5.38888 2.9057
@@ -2033,7 +2033,7 @@ kids 0
 OBJECT poly
 name "poly"
 loc 19.9395 6.54378 -37.402
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seperator1.png"
+texture "/Aircraft/A340-600/Models/interior/seperator1.png"
 crease 45.000000
 numvert 13
 0 -1.18258 -2.13184

@@ -9,7 +9,7 @@ kids 233
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.130898 0.693149 2.87779
@@ -26,7 +26,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.125423 0.632459 2.82046
@@ -43,7 +43,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0603778 0.197801 2.97139
@@ -60,7 +60,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0282106 0.00343627 2.91408
@@ -77,7 +77,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0282052 0.00330371 2.85677
@@ -94,7 +94,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0605388 0.00339586 2.36952
@@ -111,7 +111,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.105287 0.327452 2.3695
@@ -128,7 +128,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.105302 0.00338453 2.31223
@@ -145,7 +145,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.451911 0.814845 2.25516
@@ -162,7 +162,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.472054 1.04156 3.46952
@@ -179,7 +179,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436524 0.648881 3.44333
@@ -196,7 +196,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431188 0.588186 2.93523
@@ -213,7 +213,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.527492 0.00442523 3.45899
@@ -230,7 +230,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.527492 0.327429 3.45899
@@ -247,7 +247,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.403976 0.00442523 3.45875
@@ -264,7 +264,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0603778 0.00351828 2.97141
@@ -281,7 +281,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.404333 0.327429 2.9715
@@ -298,7 +298,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.404417 0.00442523 2.85626
@@ -315,7 +315,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.00533199 0.457328 2.29331
@@ -332,7 +332,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0603933 0.19779 2.91406
@@ -349,7 +349,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0282106 0.00343627 2.91408
@@ -366,7 +366,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0282052 0.00330371 2.85677
@@ -383,7 +383,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0602465 0.00361687 3.45866
@@ -400,7 +400,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436524 0.648881 3.44333
@@ -417,7 +417,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.125232 0.632478 3.44322
@@ -434,7 +434,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.614183 1.07531 3.46953
@@ -451,7 +451,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.63354 0.814443 2.87796
@@ -468,7 +468,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 -0.00926161 0.420711 2.25497
@@ -485,7 +485,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 -0.00947475 0.366892 3.50048
@@ -502,7 +502,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.614373 1.07529 2.85079
@@ -519,7 +519,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.633732 0.814424 2.25521
@@ -536,7 +536,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0603778 0.327574 2.97139
@@ -553,7 +553,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0603933 0.19779 2.91406
@@ -570,7 +570,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.131072 0.693141 2.31236
@@ -587,7 +587,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.125597 0.632441 2.25503
@@ -604,7 +604,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431597 0.420864 2.25515
@@ -621,7 +621,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.00512671 0.457219 3.50066
@@ -638,7 +638,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 -0.00926161 0.367005 2.25497
@@ -655,7 +655,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.63354 0.814443 2.87796
@@ -672,7 +672,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 -0.00926161 0.420711 2.25497
@@ -689,7 +689,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.00533199 0.457328 2.29331
@@ -706,7 +706,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 -0.00947475 0.4206 3.50048
@@ -723,7 +723,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.00162578 0.340601 2.25497
@@ -740,7 +740,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.00684524 0.327318 3.50048
@@ -757,7 +757,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.59579 0.367662 3.50066
@@ -774,7 +774,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.00512671 0.457219 3.50066
@@ -791,7 +791,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.00684524 0.327318 3.50048
@@ -808,7 +808,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.060231 0.327685 3.45875
@@ -825,7 +825,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.060231 0.197911 3.45875
@@ -842,7 +842,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0602648 0.197892 3.40131
@@ -859,7 +859,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0603778 0.327574 2.97139
@@ -876,7 +876,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.105123 0.327574 2.9714
@@ -893,7 +893,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0604086 0.32755 2.85677
@@ -910,7 +910,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.45153 0.814884 3.50066
@@ -927,7 +927,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.59579 0.367662 3.50066
@@ -944,7 +944,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431015 0.588203 3.50066
@@ -961,7 +961,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 -0.00926161 0.367005 2.25497
@@ -978,7 +978,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.00141144 0.340489 3.50048
@@ -995,7 +995,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431587 0.458392 2.29348
@@ -1012,7 +1012,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431408 0.458412 2.8779
@@ -1029,7 +1029,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.00533199 0.457328 2.29331
@@ -1046,7 +1046,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 -0.00947475 0.366892 3.50048
@@ -1063,7 +1063,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.104991 0.00361687 3.45868
@@ -1080,7 +1080,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0602648 0.00360924 3.40134
@@ -1097,7 +1097,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0602465 0.1979 3.45863
@@ -1114,7 +1114,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0602648 0.00360924 3.40134
@@ -1131,7 +1131,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.104991 0.327674 3.45865
@@ -1148,7 +1148,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.105011 0.00360924 3.40135
@@ -1165,7 +1165,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.00684524 0.327318 3.50048
@@ -1182,7 +1182,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 -0.00947475 0.366892 3.50048
@@ -1199,7 +1199,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.060231 0.197911 3.45875
@@ -1216,7 +1216,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.00162578 0.340601 2.25497
@@ -1233,7 +1233,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.545488 0.327318 3.50048
@@ -1250,7 +1250,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.06057 0.327429 2.25496
@@ -1267,7 +1267,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0602648 0.197892 3.40131
@@ -1284,7 +1284,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.105011 0.00360924 3.40135
@@ -1301,7 +1301,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0602648 0.327666 3.40131
@@ -1318,7 +1318,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.00684524 0.327318 3.50048
@@ -1335,7 +1335,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.00705695 0.327429 2.25496
@@ -1352,7 +1352,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.104991 0.327685 3.45875
@@ -1369,7 +1369,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.104991 0.327674 3.45865
@@ -1386,7 +1386,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0602648 0.327666 3.40131
@@ -1403,7 +1403,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.52745 0.00442523 3.45899
@@ -1420,7 +1420,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.404018 0.00442523 3.40143
@@ -1437,7 +1437,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.527534 0.00442523 3.40167
@@ -1454,7 +1454,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.527492 0.00442523 3.40167
@@ -1471,7 +1471,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.404018 0.327429 3.40143
@@ -1488,7 +1488,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0282288 0.0033719 3.45747
@@ -1505,7 +1505,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.403976 0.327429 3.45875
@@ -1522,7 +1522,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.404018 0.00442523 3.40143
@@ -1539,7 +1539,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.59579 0.367662 2.2552
@@ -1556,7 +1556,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.59579 0.367662 2.2552
@@ -1573,7 +1573,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.633732 0.814424 2.25521
@@ -1590,7 +1590,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436506 0.648881 3.50066
@@ -1607,7 +1607,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.125215 0.632479 3.50054
@@ -1624,7 +1624,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.527492 0.00442523 3.45899
@@ -1641,7 +1641,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.527492 0.00442523 3.40167
@@ -1658,7 +1658,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436506 0.648881 3.50066
@@ -1675,7 +1675,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431032 0.588201 3.44333
@@ -1692,7 +1692,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.59579 0.367662 2.2552
@@ -1709,7 +1709,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.527534 0.327429 3.40167
@@ -1726,7 +1726,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.527492 0.00442523 3.45899
@@ -1743,7 +1743,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.527534 0.00442523 3.40167
@@ -1760,7 +1760,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.105141 0.00353342 3.45819
@@ -1777,7 +1777,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0606284 0.197784 3.4001
@@ -1794,7 +1794,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0604312 0.197847 3.45743
@@ -1811,7 +1811,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.105391 0.00348824 3.40047
@@ -1828,7 +1828,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0604312 0.197847 3.45743
@@ -1845,7 +1845,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0284259 0.0033086 3.40014
@@ -1862,7 +1862,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.105192 0.00355119 3.45779
@@ -1879,7 +1879,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0284259 0.0033086 3.40014
@@ -1896,7 +1896,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0605388 0.327452 2.36949
@@ -1913,7 +1913,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0605543 0.197669 2.31217
@@ -1930,7 +1930,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.404774 0.327429 2.36961
@@ -1947,7 +1947,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.404816 0.00397951 2.31229
@@ -1964,7 +1964,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.528393 0.327429 2.2552
@@ -1981,7 +1981,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431597 0.327429 2.25515
@@ -1998,7 +1998,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431597 0.458392 2.25515
@@ -2015,7 +2015,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.425034 0.458374 2.29347
@@ -2032,7 +2032,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436872 0.648864 2.31248
@@ -2049,7 +2049,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.131089 0.69314 2.25504
@@ -2066,7 +2066,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.614355 1.07529 2.90757
@@ -2083,7 +2083,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431188 0.588186 2.93523
@@ -2100,7 +2100,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431015 0.588203 3.50066
@@ -2117,7 +2117,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431032 0.588201 3.44333
@@ -2134,7 +2134,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431408 0.458412 2.8779
@@ -2151,7 +2151,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436872 0.648864 2.31248
@@ -2168,7 +2168,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.125597 0.632636 2.31236
@@ -2185,7 +2185,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 -0.00926161 0.420711 2.25497
@@ -2202,7 +2202,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.425034 0.458374 2.29347
@@ -2219,7 +2219,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431015 0.588203 3.50066
@@ -2236,7 +2236,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.125232 0.632478 3.44322
@@ -2253,7 +2253,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436506 0.648881 3.50066
@@ -2270,7 +2270,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.130724 0.693157 3.44322
@@ -2287,7 +2287,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.451721 0.814865 2.87791
@@ -2304,7 +2304,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.130706 0.693158 3.50054
@@ -2321,7 +2321,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.125232 0.632478 3.44322
@@ -2338,7 +2338,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.499981 1.07502 3.46953
@@ -2355,7 +2355,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0605388 0.19768 2.36949
@@ -2372,7 +2372,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0283518 0.0031938 2.3122
@@ -2389,7 +2389,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.451721 0.814865 2.87791
@@ -2406,7 +2406,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.472244 1.04155 2.85079
@@ -2423,7 +2423,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.472418 1.04153 2.28186
@@ -2440,7 +2440,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.451721 0.814865 2.87791
@@ -2457,7 +2457,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436698 0.648872 2.87791
@@ -2474,7 +2474,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436715 0.648872 2.82058
@@ -2491,7 +2491,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436889 0.648863 2.25515
@@ -2508,7 +2508,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431396 0.588361 2.31248
@@ -2525,7 +2525,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.125597 0.632441 2.25503
@@ -2542,7 +2542,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.499981 1.07502 3.46953
@@ -2559,7 +2559,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.472227 1.04155 2.90756
@@ -2576,7 +2576,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.614373 1.07529 2.85079
@@ -2593,7 +2593,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.500344 1.07499 2.28186
@@ -2610,7 +2610,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.45153 0.814884 3.50066
@@ -2627,7 +2627,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.50017 1.075 2.85079
@@ -2644,7 +2644,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.472418 1.04153 2.28186
@@ -2661,7 +2661,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.451721 0.814865 2.87791
@@ -2678,7 +2678,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.472227 1.04155 2.90756
@@ -2695,7 +2695,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.614183 1.07531 3.46953
@@ -2712,7 +2712,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.500154 1.07501 2.90757
@@ -2729,7 +2729,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.472054 1.04156 3.46952
@@ -2746,7 +2746,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.472227 1.04155 2.90756
@@ -2763,7 +2763,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.45153 0.814884 3.50066
@@ -2780,7 +2780,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436506 0.648881 3.50066
@@ -2797,7 +2797,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436524 0.648881 3.44333
@@ -2814,7 +2814,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436698 0.648872 2.87791
@@ -2831,7 +2831,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.500154 1.07501 2.90757
@@ -2848,7 +2848,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.527848 0.327429 2.97174
@@ -2865,7 +2865,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.404333 0.00442511 2.9715
@@ -2882,7 +2882,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.105123 0.327574 2.9714
@@ -2899,7 +2899,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0603778 0.327574 2.97139
@@ -2916,7 +2916,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0603778 0.00351828 2.97141
@@ -2933,7 +2933,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.527933 0.00442523 2.8565
@@ -2950,7 +2950,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.404417 0.327429 2.85626
@@ -2967,7 +2967,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.105287 0.327452 2.3695
@@ -2984,7 +2984,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0605543 0.32744 2.31217
@@ -3001,7 +3001,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0604086 0.197779 2.85677
@@ -3018,7 +3018,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.105154 0.00349432 2.85681
@@ -3035,7 +3035,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0604086 0.32755 2.85677
@@ -3052,7 +3052,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.527848 0.327429 2.97174
@@ -3069,7 +3069,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.527933 0.00442523 2.8565
@@ -3086,7 +3086,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.527629 0.327429 2.97174
@@ -3103,7 +3103,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.348204 0.327429 2.85626
@@ -3120,7 +3120,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436715 0.648872 2.82058
@@ -3137,7 +3137,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.125423 0.632459 2.82046
@@ -3154,7 +3154,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.528288 0.327429 2.36985
@@ -3171,7 +3171,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.528332 0.00442523 2.31253
@@ -3188,7 +3188,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436872 0.648864 2.31248
@@ -3205,7 +3205,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436715 0.648872 2.82058
@@ -3222,7 +3222,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431396 0.588164 2.25515
@@ -3239,7 +3239,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436698 0.648872 2.87791
@@ -3256,7 +3256,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.130915 0.693148 2.82046
@@ -3273,7 +3273,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.105123 0.327574 2.9714
@@ -3290,7 +3290,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.105154 0.00349432 2.85681
@@ -3307,7 +3307,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.105287 0.327452 2.3695
@@ -3324,7 +3324,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0605388 0.327452 2.36949
@@ -3341,7 +3341,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0605388 0.00339586 2.36952
@@ -3358,7 +3358,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.633732 0.814424 2.25521
@@ -3375,7 +3375,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.451911 0.814845 2.25516
@@ -3392,7 +3392,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0603933 0.327561 2.91406
@@ -3409,7 +3409,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0604086 0.197779 2.85677
@@ -3426,7 +3426,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.528288 0.00442523 2.36985
@@ -3443,7 +3443,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.404774 0.327429 2.36961
@@ -3460,7 +3460,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431206 0.588183 2.8779
@@ -3477,7 +3477,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.125423 0.632459 2.82046
@@ -3494,7 +3494,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.43668 0.648873 2.93523
@@ -3511,7 +3511,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.125388 0.632462 2.93511
@@ -3528,7 +3528,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.43668 0.648873 2.93523
@@ -3545,7 +3545,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.130898 0.693149 2.87779
@@ -3562,7 +3562,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431597 0.458392 2.25515
@@ -3579,7 +3579,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.105302 0.32744 2.31217
@@ -3596,7 +3596,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0283518 0.0031938 2.3122
@@ -3613,7 +3613,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.0605543 0.32744 2.31217
@@ -3630,7 +3630,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.528269 0.327429 2.36985
@@ -3647,7 +3647,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.348784 0.327429 2.31229
@@ -3664,7 +3664,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.614547 1.07527 2.28186
@@ -3681,7 +3681,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.451911 0.814845 2.25516
@@ -3698,7 +3698,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.59579 0.367662 2.2552
@@ -3715,7 +3715,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431597 0.458392 2.25515
@@ -3732,7 +3732,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.436889 0.648863 2.25515
@@ -3749,7 +3749,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.125597 0.632441 2.25503
@@ -3766,7 +3766,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431206 0.588183 2.8779
@@ -3783,7 +3783,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431223 0.588182 2.82058
@@ -3800,7 +3800,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431396 0.588164 2.25515
@@ -3817,7 +3817,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431587 0.458392 2.29348
@@ -3834,7 +3834,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.13088 0.69315 2.93511
@@ -3851,7 +3851,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.125406 0.63246 2.87779
@@ -3868,7 +3868,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.528332 0.00442523 2.31253
@@ -3885,7 +3885,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.404816 0.327429 2.31229
@@ -3902,7 +3902,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.472418 1.04153 2.28186
@@ -3919,7 +3919,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.431188 0.588186 2.93523
@@ -3936,7 +3936,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.125406 0.63246 2.87779
@@ -3953,7 +3953,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.500344 1.07499 2.28186
@@ -3974,7 +3974,7 @@ kids 12
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.536498 0.00162542 1.00273
@@ -3991,7 +3991,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.116544 0.324811 3.42829
@@ -4008,7 +4008,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.501404 0.00190371 5.6267
@@ -4025,7 +4025,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.116559 0.195035 3.38027
@@ -4042,7 +4042,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.116513 0.195037 3.42829
@@ -4059,7 +4059,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.116544 0.324811 3.42829
@@ -4076,7 +4076,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.116587 0.324809 3.38027
@@ -4093,7 +4093,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.116559 0.195035 3.38027
@@ -4110,7 +4110,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.116438 0.000562073 3.38028
@@ -4127,7 +4127,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.116559 0.195035 3.38027
@@ -4144,7 +4144,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.116559 0.262969 3.38027
@@ -4161,7 +4161,7 @@ kids 0
 OBJECT poly
 name "seating"
 loc 1.38283e-005 0 -2.67029e-005
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/seatingforward.png"
+texture "/Aircraft/A340-600/Models/interior/seatingforward.png"
 crease 45.000000
 numvert 3
 0.338066 0.324432 2.87628

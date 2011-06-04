@@ -6,7 +6,7 @@ kids 3
 OBJECT poly
 name "blah"
 loc 34.5345 3.78001 -77.661
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/Interior2.png"
+texture "/Aircraft/A340-600/Models/interior/Interior2.png"
 crease 9.607774
 numvert 26
 -18.4241 3.04981 43.0235
@@ -184,7 +184,7 @@ kids 0
 OBJECT poly
 name "blah"
 loc 6.32229 3.78771 2.83091
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/Interior2.png"
+texture "/Aircraft/A340-600/Models/interior/Interior2.png"
 crease 9.607774
 numvert 26
 9.78804 3.96216 -42.4995
@@ -362,7 +362,7 @@ kids 0
 OBJECT poly
 name "cabin"
 loc -16.0753 0 -54.0517
-texture "C:/Program Files/FlightGear/data/Aircraft/A340-600/Models/interior/Interior.png"
+texture "/Aircraft/A340-600/Models/interior/Interior.png"
 crease 45.000000
 numvert 242
 32.2049 7.70913 14.8995
