@@ -1,0 +1,14 @@
+This is a model replica of an Airbus A340-600 typical Aircraft, Designed and manufactured in real life by Airbus
+Industries, of the European Union country of France. It has four Rolls-Royce Trent 500 Engines.
+
+The Airbus A340-600, made by Airbus Industries, is the longest civil airliner in world. It was was added to
+FlightGear by Liam, starting in early November 2009.
+
+Designed as an early generation 747 replacement, the A340-600 caries up to 380 passengers in a three-class
+cabin layout (or 419 in a 2-class layout), with a range of over 7,500 nautical miles (13,900 km). It provides
+similar passenger capacity to a 747 but with 25% more cargo volume, and at lower trip and seat costs. First
+flight of the A340-600 was made on 23 April 2001. Virgin Atlantic began commercial services in August 2002.
+The A340-600 is more than 10 m longer than a basic -300, making it the longest airliner currently in production;
+more than four metres longer than the Boeing 747-400 and 2.3m longer than the A380. The Airbus A340-600 will
+continue to hold the record for being the worlds longest commercial aircraft until the first Boeing 747-8 
+Intercontinental is rolled out in 2010.

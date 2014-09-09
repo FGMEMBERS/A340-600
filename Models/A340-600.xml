@@ -1,0 +1,833 @@
+<!-- A340-600
+Liam Gathercole
+-->
+
+<PropertyList>
+    <path>A340.ac</path>
+
+<!-- Cockpit -->
+<model>
+        <name>Cockpit</name>
+        <path>Aircraft/A340-600/Models/Cockpit/cockpit.xml</path>
+        <offsets>
+            <x-m>-49.56</x-m>
+            <y-m>-4.09</y-m>
+            <z-m>-9.356</z-m>
+            <pitch-deg>-10</pitch-deg>
+        </offsets>
+</model>
+
+  <!-- Interior -->
+  <model>
+    <path>Aircraft/A340-600/Models/interior/interior.xml</path>
+    <offsets>
+      <x-m> 0 </x-m>
+      <y-m> 0 </y-m>
+      <z-m>-0.3 </z-m>
+    </offsets>
+  </model>
+
+
+
+<!-- CONTRAIL -->
+
+  <!-- Particules OSG -->
+  <model>
+    <path>Aircraft/A340-600/Models/effects/contrail.xml</path>
+    <offsets>
+<x-m> 10.290</x-m>
+<y-m>-18.550</y-m>
+<z-m>-2.928</z-m> 
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/effects/contrail.xml</path>
+    <offsets>
+<x-m> 10.290</x-m>
+<y-m> 18.550</y-m>
+<z-m>-2.928</z-m> 
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/effects/contrail.xml</path>
+    <offsets>
+<x-m> 10.290</x-m>
+<y-m>-8.550</y-m>
+<z-m>-2.928</z-m> 
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/effects/contrail.xml</path>
+    <offsets>
+<x-m> 10.290</x-m>
+<y-m> 8.550</y-m>
+<z-m>-2.928</z-m> 
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+<!-- LIGHTS -->
+
+<model>
+<path>Aircraft/A340-600/Models/lights/GreenLight.xml</path>
+<name>Greenlight</name>     
+<offsets>
+<x-m> 10.290</x-m>
+<y-m> 30.550</y-m>
+<z-m>  2.928</z-m>       
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/A340-600/Models/lights/RedLight.xml</path>
+<name>Redlight</name>     
+<offsets>
+<x-m> 10.290</x-m>
+<y-m>-30.550</y-m>
+<z-m>  2.928</z-m>       
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/A340-600/Models/lights/flash.xml</path>
+<name>flashright</name>     
+<offsets>
+<x-m> 10.390</x-m>
+<y-m> 30.550</y-m>
+<z-m>  2.728</z-m>        
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/A340-600/Models/lights/flash.xml</path>
+<name>flashleft</name>     
+<offsets>
+<x-m> 10.390</x-m>
+<y-m>-30.550</y-m>
+<z-m>  2.728</z-m>     
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/A340-600/Models/lights/flash.xml</path>
+<name>flashtop</name>     
+<offsets>
+<x-m>-28.40</x-m>
+<y-m>0.000</y-m>
+<z-m>3.250</z-m>   
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/A340-600/Models/lights/landinglight.xml</path>
+<name>NoseGearLandinglight</name>     
+<condition>
+ <equals>
+			             <property>gear/gear[0]/position-norm</property>
+                                            <value type="bool">true</value>
+ </equals>
+  </condition>
+
+<offsets>
+<x-m>-32.100</x-m>
+<y-m>  0.000</y-m> 
+<z-m> -2.950</z-m>      
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/A340-600/Models/lights/landinglight.xml</path>
+<name>LeftWingLandinglight</name>
+<condition>
+ <equals>
+			             <property>gear/gear[1]/position-norm</property>
+                                            <value type="bool">true</value>
+ </equals>
+  </condition>     
+<offsets>
+<x-m>-8.750</x-m>
+<y-m>-4.00</y-m>
+<z-m>-1.50</z-m>      
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/A340-600/Models/lights/landinglight.xml</path>
+<name>RightWingLandinglight</name>
+<condition>
+ <equals>
+			             <property>gear/gear[2]/position-norm</property>
+                                            <value type="bool">true</value>
+ </equals>
+  </condition>     
+<offsets>
+<x-m>-8.750</x-m>
+<y-m> 4.00</y-m>
+<z-m>-1.50</z-m>       
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/A340-600/Models/lights/beacon.xml</path>
+<name>Beaconlight.top</name>     
+<offsets>
+<x-m>2.30</x-m>
+<y-m>0.000</y-m>
+<z-m>3.250</z-m>      
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/A340-600/Models/lights/beacon.xml</path>
+<name>Beaconlight.bottom</name>     
+<offsets>
+<x-m>12.213</x-m>
+<y-m> 0.000</y-m>
+<z-m>-2.800</z-m>      
+</offsets>
+</model>
+
+<!-- Tyre Smoke -->
+
+<model>
+ <path>Aircraft/A340-600/Effects/tyre-smoke-nose.xml</path>
+ <name>tyre-smoke-n</name>
+ <offsets>
+  <x-m>-11.669</x-m>
+  <y-m>0</y-m>
+  <z-m>-5.084</z-m>
+ </offsets>
+</model>
+
+<model>
+ <path>Aircraft/A340-600/Effects/tyre-smoke-port.xml</path>
+ <name>tyre-smoke-p</name>
+ <offsets>
+  <x-m>-4.962</x-m>
+  <y-m>-2.634</y-m>
+  <z-m>-5.084</z-m>
+ </offsets>
+</model>
+
+<model>
+ <path>Aircraft/A340-600/Effects/tyre-smoke-central.xml</path>
+ <name>tyre-smoke-p</name>
+ <offsets>
+  <x-m>-4.962</x-m>
+  <y-m>0.634</y-m>
+  <z-m>-5.084</z-m>
+ </offsets>
+</model>
+
+<model>
+ <path>Aircraft/A340-600/Effects/tyre-smoke-stbd.xml</path>
+ <name>tyre-smoke-s</name>
+ <offsets>
+  <x-m>-4.962</x-m>
+  <y-m>2.634</y-m>
+  <z-m>-5.084</z-m>
+ </offsets>
+</model>
+
+<!-- Engine Fires (on all four Engines) -->
+
+<model>
+ <name>left engine fire</name>
+ <path>Aircraft\A340-600\Models\enginefire.xml</path>
+ 
+<condition>
+ <equals>
+			             <property>sim/crashed</property>
+                                            <value type="bool">true</value>
+ </equals>
+  </condition>
+  
+  
+  
+  <offsets>
+  <x-m>-10.0</x-m>
+  <y-m>-8.77</y-m>
+  <z-m>-2.4</z-m>
+ </offsets>
+</model>
+
+
+ <model>
+ <name>right engine fire</name>
+ <path>Aircraft\A340-600\Models\enginefire.xml</path>
+ <condition>
+ <equals>
+			             <property>sim/crashed</property>
+                                            <value type="bool">true</value>
+ </equals>
+  </condition>
+  
+  <offsets>
+  <x-m>-10.0</x-m>
+  <y-m>8.77</y-m>
+  <z-m>-2.4</z-m>
+ </offsets>
+</model>
+
+
+<model>
+ <name>left outer engine fire</name>
+ <path>Aircraft\A340-600\Models\enginefire.xml</path>
+ 
+<condition>
+ <equals>
+			             <property>sim/crashed</property>
+                                            <value type="bool">true</value>
+ </equals>
+  </condition>
+  
+  
+  
+  <offsets>
+  <x-m>-4.0</x-m>
+  <y-m>-18.77</y-m>
+  <z-m>-1.4</z-m>
+ </offsets>
+</model>
+
+ 
+ 
+ 
+ <model>
+ <name>right outer engine fire</name>
+ <path>Aircraft\A340-600\Models\enginefire.xml</path>
+ <condition>
+ <equals>
+			             <property>sim/crashed</property>
+                                            <value type="bool">true</value>
+ </equals>
+  </condition>
+  
+  <offsets>
+  <x-m>-4.0</x-m>
+  <y-m>18.77</y-m>
+  <z-m>-1.4</z-m>
+ </offsets>
+
+</model>
+    <nasal>
+        <load>
+            var livery_update = aircraft.livery_update.new("Aircraft/A340-600/Models/Liveries", 10);
+        </load>
+
+        <unload>
+            livery_update.stop();
+        </unload>
+    </nasal>
+
+<!-- Livery Selection Animation -->
+
+    <animation>
+        <type>material</type>
+        <object-name>fuselage</object-name>
+        <object-name>tail</object-name>
+	  <object-name>engines</object-name>
+	  <object-name>winglets</object-name>
+        <property-base>sim/model/livery</property-base>
+        <texture-prop>texture</texture-prop>
+        <texture>Liveries/Liveries/Default.png</texture>
+    </animation>
+
+<!-- Takeoff Engine Moisture -->
+
+<model>
+    <name>Left</name>
+    <path>Aircraft/A340-600/Models/effects/exhaust.xml</path>
+     
+	 <condition>
+	 <and>
+           <greater-than>
+            <property>position/altitude-agl-ft</property>
+            <value>1</value>
+          </greater-than>
+	  
+	  <and>
+	  <greater-than>
+                <property>environment/relative-humidity</property>
+                <value>45</value>
+            </greater-than>
+	  
+	  
+	  <and>
+	  <less-than-equals>
+            <property>position/altitude-agl-ft</property>
+            <value>75</value>
+          </less-than-equals>
+	  
+	  <and>
+	  <less-than-equals>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.63</value>
+			</less-than-equals>
+			<and>
+	  <greater-than>
+                <property>engines/engine[0]/rpm</property>
+                <value>90</value>
+            </greater-than>
+	    
+	    <not>
+   <property>sim/crashed</property>
+   </not>
+	    </and>
+	    </and>
+            </and>
+	    </and>
+	    </and>
+	    </condition>
+      
+    <offsets>
+  <x-m>-11.0</x-m>
+  <y-m>-8.77</y-m>
+  <z-m>-2.4</z-m>
+      <pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+  
+  
+  
+ <model>
+    <name>Left outer</name>
+    <path>Aircraft/A340-600/Models/effects/exhaust.xml</path>
+     
+	 <condition>
+	 <and>
+           <greater-than>
+            <property>position/altitude-agl-ft</property>
+            <value>1</value>
+          </greater-than>
+	  
+	  
+	  <and>
+	  <greater-than>
+                <property>environment/relative-humidity</property>
+                <value>45</value>
+            </greater-than>
+	  
+	  <and>
+	  <less-than-equals>
+            <property>position/altitude-agl-ft</property>
+            <value>75</value>
+          </less-than-equals>
+	  
+	  <and>
+	  <less-than-equals>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.63</value>
+			</less-than-equals>
+	  <and>
+	  <greater-than>
+                <property>engines/engine[1]/rpm</property>
+                <value>90</value>
+            </greater-than>
+	    
+	    <not>
+   <property>sim/crashed</property>
+   </not>
+	    
+	    </and>
+	    </and>
+            </and>
+	    </and>
+	    </and>
+	    </condition>
+      
+    <offsets>
+ <x-m>-5.0</x-m>
+  <y-m>-20.0</y-m>
+  <z-m>-1.4</z-m>
+      <pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+
+ <model>
+    <name>Right</name>
+    <path>Aircraft/A340-600/Models/effects/exhaust.xml</path>
+     
+	 <condition>
+	 <and>
+           <greater-than>
+            <property>position/altitude-agl-ft</property>
+            <value>1</value>
+          </greater-than>
+	  
+	  
+	  <and>
+	  <greater-than>
+                <property>environment/relative-humidity</property>
+                <value>45</value>
+            </greater-than>
+	  
+	  <and>
+	  <less-than-equals>
+            <property>position/altitude-agl-ft</property>
+            <value>75</value>
+          </less-than-equals>
+	  
+	  <and>
+	  <less-than-equals>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.63</value>
+			</less-than-equals>
+	  <and>
+	  <greater-than>
+                <property>engines/engine[1]/rpm</property>
+                <value>90</value>
+            </greater-than>
+	    
+	    <not>
+   <property>sim/crashed</property>
+   </not>
+	    
+	    </and>
+	    </and>
+            </and>
+	    </and>
+	    </and>
+	    </condition>
+      
+    <offsets>
+  <x-m>-11.0</x-m>
+  <y-m>8.77</y-m>
+  <z-m>-2.4</z-m>
+      <pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+
+<model>
+    <name>Right outer</name>
+    <path>Aircraft/A340-600/Models/effects/exhaust.xml</path>
+     
+	 <condition>
+	 <and>
+           <greater-than>
+            <property>position/altitude-agl-ft</property>
+            <value>1</value>
+          </greater-than>
+	  
+	  
+	  <and>
+	  <greater-than>
+                <property>environment/relative-humidity</property>
+                <value>45</value>
+            </greater-than>
+	  
+	  <and>
+	  <less-than-equals>
+            <property>position/altitude-agl-ft</property>
+            <value>75</value>
+          </less-than-equals>
+	  
+	  <and>
+	  <less-than-equals>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.63</value>
+			</less-than-equals>
+	  <and>
+	  <greater-than>
+                <property>engines/engine[1]/rpm</property>
+                <value>90</value>
+            </greater-than>
+	    
+	    <not>
+   <property>sim/crashed</property>
+   </not>
+	    
+	    </and>
+	    </and>
+            </and>
+	    </and>
+	    </and>
+	    </condition>
+      
+    <offsets>
+  <x-m>-5.0</x-m>
+  <y-m>20.0</y-m>
+  <z-m>-1.4</z-m>
+      <pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+
+<!-- Gear Animation -->
+
+<!--       Left Gear      -->
+
+    <animation>
+        <type>rotate</type>
+        <object-name>left_gear</object-name>
+        <property>gear/gear[1]/position-norm</property>
+        <interpolation>
+            <entry>
+                <ind>0</ind>
+                <dep>80</dep>
+            </entry>
+            <entry>
+                <ind>1.0</ind>
+                <dep>0</dep>
+            </entry>
+        </interpolation>
+        <center>
+            <x-m>6.407</x-m>
+            <y-m>-5.616</y-m>
+            <z-m>-1.262</z-m>
+        </center>
+        <axis>
+            <x>1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+    </animation>
+
+<!-- Right Gear -->
+    <animation>
+        <type>rotate</type>
+        <object-name>right_gear</object-name>
+        <property>gear/gear[2]/position-norm</property>
+        <interpolation>
+            <entry>
+                <ind>0</ind>
+                <dep>80</dep>
+            </entry>
+            <entry>
+                <ind>1.0</ind>
+                <dep>0</dep>
+            </entry>
+        </interpolation>
+        <center>
+            <x-m>6.407</x-m>
+            <y-m>5.616</y-m>
+            <z-m>-1.262</z-m>
+        </center>
+        <axis>
+            <x>-1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+    </animation>
+
+<!-- Middle Gear -->
+
+    <animation>
+        <type>rotate</type>
+        <object-name>mid_gear</object-name>
+        <property>gear/gear[0]/position-norm</property>
+        <interpolation>
+            <entry>
+                <ind>0</ind>
+                <dep>105</dep>
+            </entry>
+            <entry>
+                <ind>0.2</ind>
+                <dep>105</dep>
+            </entry>
+            <entry>
+                <ind>1.0</ind>
+                <dep>0</dep>
+            </entry>
+        </interpolation>
+        <center>
+            <x-m>1.0</x-m>
+            <y-m>0.0</y-m>
+            <z-m>-2.347</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>1</y>
+            <z>0</z>
+        </axis>
+    </animation>
+
+
+<!-- Front Gear -->
+    <animation>
+        <type>rotate</type>
+        <object-name>nose_gear</object-name>
+        <property>gear/gear[0]/position-norm</property>
+        <interpolation>
+            <entry>
+                <ind>0</ind>
+                <dep>105</dep>
+            </entry>
+            <entry>
+                <ind>0.2</ind>
+                <dep>105</dep>
+            </entry>
+            <entry>
+                <ind>1.0</ind>
+                <dep>0</dep>
+            </entry>
+        </interpolation>
+        <center>
+            <x-m>-31.484</x-m>
+            <y-m>0.0</y-m>
+            <z-m>-1.247</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>1</y>
+            <z>0</z>
+        </axis>
+    </animation>
+
+<!-- Fuselage invisible from internally -->
+
+    <animation>
+        <type>select</type>
+        <object-name>fuselage</object-name>
+        <condition>
+<not>
+            <property>sim/current-view/internal</property>
+</not>
+        </condition>
+    </animation>
+
+<!-- Fuel Dump animations -->
+
+  <!-- Particules OSG -->
+
+  <model>
+    <path>Aircraft/A340-600/Models/effects/fueldump.xml</path>
+    <offsets>
+<x-m> 10.290</x-m>
+<y-m>-14.550</y-m>
+<z-m>-2.928</z-m> 
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   -160 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+<condition>
+<property>controls/switches/reserve1</property>
+</condition>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/effects/fueldump.xml</path>
+    <offsets>
+<x-m> 10.290</x-m>
+<y-m> 14.550</y-m>
+<z-m>-1.928</z-m> 
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   -160 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+<condition>
+<property>controls/switches/reserve2</property>
+</condition>
+  </model>
+
+<!-- Engine Fan -->
+
+    <animation>
+        <type>spin</type>
+        <object-name>engine1</object-name>
+        <property>engines/engine[0]/rpm</property>
+        <factor>10</factor>
+        <center>
+            <x-m>-0.00</x-m>
+            <y-m>-19.92</y-m>
+            <z-m>-1.86</z-m>
+        </center>
+        <axis>
+            <x>-1.0</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>spin</type>
+        <object-name>engine2</object-name>
+        <property>engines/engine[0]/rpm</property>
+        <factor>10</factor>
+        <center>
+            <x-m>-0.00</x-m>
+            <y-m>-9.20</y-m>
+            <z-m>-2.70</z-m>
+        </center>
+        <axis>
+            <x>-1.0</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>spin</type>
+        <object-name>engine3</object-name>
+        <property>engines/engine[1]/rpm</property>
+        <factor>10</factor>
+        <center>
+            <x-m>-0.00</x-m>
+            <y-m> 9.20</y-m>
+            <z-m>-2.70</z-m>
+        </center>
+        <axis>
+            <x>-1.0</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>spin</type>
+        <object-name>engine4</object-name>
+        <property>engines/engine[1]/rpm</property>
+        <factor>10</factor>
+        <center>
+            <x-m>-0.00</x-m>
+            <y-m> 19.88</y-m>
+            <z-m>-1.88</z-m>
+        </center>
+        <axis>
+            <x>-1.0</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+    </animation>
+
+
+
+<!-- Gear disapears when raised -->
+
+<animation>
+        <type>select</type>
+        <object-name>right_gear</object-name>
+        <object-name>left_gear</object-name>
+        <object-name>mid_gear</object-name>
+        <object-name>nose_gear</object-name>
+        <condition>
+        <property>gear/gear[0]/position-norm</property>
+        </condition>
+    </animation>
+
+<!-- Rudder Animation -->
+
+<!-- Ailerons Animation -->
+
+<!-- Tail Ailerons Animation -->
+
+<!-- Flaps Animation -->
+
+
+
+<!-- OSG hotspots -->
+</PropertyList>

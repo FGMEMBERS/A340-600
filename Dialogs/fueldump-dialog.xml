@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<PropertyList>
+  <name>Fuel Dump</name>
+  <layout>vbox</layout>
+
+  <text>
+    <label>Fuel Dump</label>
+  </text>
+
+  <hrule/>
+
+  <group>
+    <layout>vbox</layout>
+    <halign>center</halign>
+
+    <text>
+      <label>Check a fuel reserve to dump fuel from it. Uncheck it to cease fuel dumping from the reserve.</label>
+    </text>
+
+    <checkbox>
+      <halign>left</halign>
+      <label>Left Wing (LH)</label>
+      <property>controls/switches/reserve1</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>controls/switches/reserve1</property>
+      </binding>
+    </checkbox>
+
+    <checkbox>
+      <halign>left</halign>
+      <label>Right Wing (RH)</label>
+      <property>controls/switches/reserve2</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>controls/switches/reserve2</property>
+      </binding>
+    </checkbox>
+
+  </group>
+
+  <hrule/>
+
+  <group>
+    <layout>hbox</layout>
+    <empty><stretch>true</stretch></empty>
+
+    <button>
+      <legend>Close</legend>
+      <default>true</default>
+      <key>Esc</key>
+      <binding>
+        <command>dialog-close</command>
+      </binding>
+    </button>
+
+    <empty><stretch>true</stretch></empty>
+  </group>
+
+</PropertyList>

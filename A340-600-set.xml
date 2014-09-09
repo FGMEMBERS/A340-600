@@ -1,0 +1,451 @@
+<PropertyList>
+
+    <sim>
+        <description>Airbus A340-600</description>
+        <author>Liam Gathercole</author>
+        <status>Development</status>
+        <aircraft-version>20080400</aircraft-version>
+        <flight-model>yasim</flight-model>
+        <aero>A340-600</aero>
+        <fuel-fraction>0.75</fuel-fraction>
+        <startup>
+            <splash-texture>Aircraft/A340-600/splash.png</splash-texture>
+        </startup>
+
+	<gui>
+			<style>
+			<colors>
+				<splash-screen>
+					<red>0.40</red>
+					<green>0.60</green>
+					<blue>0.80</blue>
+				</splash-screen>
+			</colors>
+			</style>
+		</gui>
+
+
+        <model>
+            <path>Aircraft/A340-600/Models/A340-600-Models.xml</path>
+        </model>
+
+        <view n="0">
+            <name>Pilot View</name>
+            <type>lookfrom</type>
+            <internal type="bool">true</internal>
+            <config>
+                <x-offset-m type="double">-0.65</x-offset-m>
+                <y-offset-m type="double">0.28</y-offset-m>
+                <z-offset-m type="double">-34.54</z-offset-m>
+                <pitch-offset-deg>-13.5</pitch-offset-deg>
+                <limits>
+                    <enabled type="bool">true</enabled> 
+                </limits>
+            </config>
+        </view>
+
+
+  <view n="100">
+    <name>Wing View</name>
+    <type>lookfrom</type>
+    <internal archive="y">false</internal>
+    <config>
+      <from-model type="bool">true</from-model>
+      <from-model-idx type="int">0</from-model-idx>
+      <ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
+      <default-field-of-view-deg type="double">55</default-field-of-view-deg>
+      <pitch-offset-deg>-8.0</pitch-offset-deg>
+      <heading-offset-deg type="double">90</heading-offset-deg> <!-- parallel to the panel -->
+      <x-offset-m archive="y"> -3.40 </x-offset-m> <!--Left/Right-->
+      <y-offset-m archive="y"> 1.27 </y-offset-m> <!--Up/Down-->
+      <z-offset-m archive="y"> 1.27 </z-offset-m> <!--Fdw/Back-->
+    </config>
+  </view>
+
+  <view n="101">
+   <name>Jump seat</name>
+   <type>lookfrom</type>
+   <internal type="bool">true</internal>
+   <config>
+    <from-model type="bool">true</from-model>
+    <from-model-idx type="int">0</from-model-idx>
+    <ground-level-nearplane-m type="double">6f</ground-level-nearplane-m>
+                <x-offset-m type="double">-0.09</x-offset-m>
+                <y-offset-m type="double">0.58</y-offset-m>
+                <z-offset-m type="double">-33.59</z-offset-m>
+    <pitch-offset-deg>-10</pitch-offset-deg>
+    <default-field-of-view-deg type="double">65.0</default-field-of-view-deg>
+   </config>
+   <dynamic>
+    <enabled type="bool">false</enabled>
+   </dynamic>
+  </view>
+
+
+  <view n="102">
+   <name>Tail view</name>
+   <type>lookfrom</type>
+   <internal type="bool">false</internal>
+   <config>
+    <from-model type="bool">true</from-model>
+    <from-model-idx type="int">0</from-model-idx>
+    <ground-level-nearplane-m type="double">6f</ground-level-nearplane-m>
+    <x-offset-m type="double">0.00</x-offset-m>
+    <y-offset-m type="double">13.20</y-offset-m>
+    <z-offset-m type="double">35.55</z-offset-m>
+    <pitch-offset-deg>-10</pitch-offset-deg>
+    <default-field-of-view-deg type="double">65.0</default-field-of-view-deg>
+   </config>
+   <dynamic>
+    <enabled type="bool">false</enabled>
+   </dynamic>
+  </view>
+
+  <view n="103">
+   <name>Economy class view</name>
+   <type>lookfrom</type>
+   <internal type="bool">true</internal>
+   <config>
+    <from-model type="bool">true</from-model>
+    <from-model-idx type="int">0</from-model-idx>
+    <ground-level-nearplane-m type="double">6f</ground-level-nearplane-m>
+    <x-offset-m type="double">-2.64</x-offset-m>
+    <y-offset-m type="double">1.08</y-offset-m>
+    <z-offset-m type="double">12.54</z-offset-m>
+    <pitch-offset-deg>-10</pitch-offset-deg>
+    <default-field-of-view-deg type="double">65.0</default-field-of-view-deg>
+   </config>
+   <dynamic>
+    <enabled type="bool">false</enabled>
+   </dynamic>
+  </view>
+
+<view n="104">
+   <name>Gear view</name>
+   <type>lookfrom</type>
+   <internal type="bool">false</internal>
+   <config>
+    <from-model type="bool">true</from-model>
+    <from-model-idx type="int">0</from-model-idx>
+    <ground-level-nearplane-m type="double">6f</ground-level-nearplane-m>
+    <x-offset-m type="double">0.00</x-offset-m>
+    <y-offset-m type="double">-4.08</y-offset-m>
+    <z-offset-m type="double">8.86</z-offset-m>
+    <pitch-offset-deg>-10</pitch-offset-deg>
+    <default-field-of-view-deg type="double">65.0</default-field-of-view-deg>
+   </config>
+   <dynamic>
+    <enabled type="bool">false</enabled>
+   </dynamic>
+  </view>
+
+    <airport>
+        <runways>
+            <start-offset-m>50</start-offset-m>
+        </runways>
+    </airport>
+
+        <chase-distance-m>-100</chase-distance-m>
+
+        <flaps>
+            <setting>0.000</setting>  <!-- flaps up -->
+            <setting>0.033</setting>  <!-- flaps 1  -->
+            <setting>0.166</setting>  <!-- flaps 5  -->
+            <setting>0.500</setting>  <!-- flaps 15 --> 
+            <setting>0.666</setting>  <!-- flaps 20 -->
+            <setting>0.833</setting>  <!-- flaps 25 -->
+            <setting>1.000</setting>  <!-- flaps 30 -->
+        </flaps>
+
+
+
+         <systems>
+        <path>Aircraft/A340-600/Systems/systems.xml</path>
+            <autopilot>
+                <path>Aircraft/A340-600/Systems/A340-autopilot.xml</path>
+            </autopilot>
+        </systems>
+
+        <instrumentation>
+            <path>Aircraft/A340-600/instrumentation.xml</path>
+        </instrumentation>
+
+        <sound>
+            <path>Aircraft/A340-600/Sounds/A340-sound.xml</path>
+            <switch type = "bool">0</switch>
+  <Evolume>1</Evolume>
+        </sound>
+
+        <hud>
+            <enable3d>false</enable3d>
+        </hud>
+
+        <virtual-cockpit archive="y">true</virtual-cockpit>
+        <allow-toggle-cockpit>true</allow-toggle-cockpit>
+
+        <help>
+            <title>A340-600</title>
+            <key>
+                <name>w/W</name>
+                <desc>Walk forwards/backwards (on interior views only)</desc>
+            </key>
+            <key>
+                <name>Delete</name>
+                <desc>toggle thrust reversers</desc>
+            </key>
+            <key>
+                <name>g/G</name>
+                <desc>raise/lower landing gear</desc>
+            </key>
+            <key>
+                <name>B (shift and b)</name>
+                <desc>toggle parking brakes</desc>
+            </key>
+            <key>
+                <name>pgup/pgdn</name>
+                <desc>throttle increase/decrease</desc>
+            </key>
+            <key>
+                <name>]/[</name>
+                <desc>lower/raise flaps</desc>
+            </key>
+            <key>
+                <name>Ctrl-b</name>
+                <desc>toggle speed brakes</desc>
+            </key>
+            <key>
+                <name>s</name>
+                <desc>hold to start engines manually</desc>
+            </key>
+   <text>
+=== Takeoff Procedure ===
+Pre-departure:
+1. Allocate your fuel and weight under Equipment/fuel and payload
+   Uncheck any airport operations props around the aircraft
+   Taxi away from the terminal with a Pushback truck
+
+Departure:
+2. Select A340-600/Autostart (or hold s)
+3. set your flaps
+4. Release the parking brakes
+5. Apply throttle gently, until at full throttle
+6. Rotate at around 140kt
+7. Raise landing gear at positive climb
+8. Maintain positive climb
+
+Captain Notes:
+- Never reverse from terminal without aid from a pushback. It should be used until the aircraft is on the taxiway.
+- The A340-600 is a heavy aircraft, and may take some getting used to the controls.
+- Ensure you allow enough room to manoeuvre around the airport, given that it is a long aircraft.
+- There are risks of overrunning the runway apron upon landing and takeoff, aswell as overrunning the taxiway corners in the A340. In wet conditions especially take care and ensure that the correct speed guidelines and height are maintained.
+
+=== Cruising ===
+Cruising Speed: Mach 0.83 (907 km/h, 490 knots, 564 mph)
+Service Ceiling: 39,000ft
+
+During turbulant conditions, The seatbelt warning sound should be initiated by the captain.
+
+=== Landing ===
+1. Decend through 200kt, reaching roughly 160kt 1mile before reaching the apron
+2. set flaps accordingly
+3. Land at roughly 140kt, touch down carefully and smoothly at 135kt.
+4. Apply Speedbrakes
+5. Apply thrust reversal and apply throttle
+6. Lower throttle and deactivate thrust reversers
+7. If necessary, Emergency brakes should be used
+</text>
+        </help>
+
+        <menubar>
+            <default>
+   <menu n="100">
+   <item n="10">
+    <label>Pushback</label>
+    <name>pushback</name>
+    <binding>
+     <command>dialog-show</command>
+     <dialog-name>pushback</dialog-name>
+    </binding>
+   </item>
+  </menu>
+                <menu n="100">
+                    <label>A340-600</label>
+                    <enabled type="bool">true</enabled>
+                    <item>
+                        <label>Autostart</label>
+                        <binding>
+                            <command>property-toggle</command>
+                            <property>sim/model/start-idling</property>
+                        </binding>
+                    </item>
+                    <item>
+                        <label>Select Livery</label>
+                        <binding>
+                            <command>nasal</command>
+                            <script>aircraft.livery.dialog.toggle()</script>
+                        </binding>
+</item>
+
+<item>
+      <label>Announcements</label>
+      <binding>
+       <command>nasal</command>
+       <script>
+	  var mal = gui.Dialog.new("/sim/gui/dialogs/Boeing747/menu/dialog", 
+                                                              "Aircraft/A340-600/Dialogs/announcements-dialog.xml");
+        mal.open();
+       </script>
+      </binding>
+     </item>
+
+<item>
+      <label>Airport Operations</label>
+      <binding>
+       <command>nasal</command>
+       <script>
+	  var mal = gui.Dialog.new("/sim/gui/dialogs/Boeing747/menu/dialog", 
+                                                              "Aircraft/A340-600/Dialogs/airportoperations-dialog.xml");
+        mal.open();
+       </script>
+      </binding>
+     </item>
+
+<item>
+      <label>Fuel Dump</label>
+      <binding>
+       <command>nasal</command>
+       <script>
+	  var mal = gui.Dialog.new("/sim/gui/dialogs/Boeing747/menu/dialog", 
+                                                              "Aircraft/A340-600/Dialogs/fueldump-dialog.xml");
+        mal.open();
+       </script>
+      </binding>
+     </item>
+
+</menu>
+            </default>
+        </menubar>
+
+
+        <weight n="0">
+            <name>Crew</name>
+            <weight-lb>350</weight-lb> 
+            <max-lb>500</max-lb>
+            <min-lb>350</min-lb>
+        </weight>
+
+        <weight n="1">
+        <!--  380 pax max @ 180 lbs-->
+            <name>Passenger</name>
+            <weight-lb>62000</weight-lb>
+            <max-lb>68400</max-lb>
+            <min-lb>0</min-lb>
+        </weight>
+
+ <weight n="2">
+            <name>Cargo</name>
+            <weight-lb>70000</weight-lb>
+            <max-lb>90000</max-lb>
+            <min-lb>0</min-lb>
+        </weight>
+
+
+    </sim>
+
+
+    <consumables>
+        <fuel>
+            <tank n="0"><name>LH Main</name></tank>
+            <tank n="1"><name>Center</name></tank>
+            <tank n="2"><name>RH Main</name></tank>
+        </fuel>
+    </consumables>
+
+    <input>
+        <keyboard>
+<key n="119">
+   <name>w</name>
+    <desc>Walk forward toward view</desc>
+    <repeatable>true</repeatable>
+    <binding>
+     <command>nasal</command>
+     <script>walk.walk_about(0.1)</script>
+    </binding>
+  </key>
+  <key n="87">
+   <name>W</name>
+   <desc>Walk backward from view</desc>
+   <repeatable>true</repeatable>
+   <binding>
+    <command>nasal</command>
+    <script>walk.walk_about(-0.1)</script>
+   </binding>
+  </key>  
+<key n="127">
+                <name>Delete</name>
+                <desc>Toggle Reversers</desc>
+                <binding>
+                    <command>property-toggle</command>
+                    <property>controls/engines/engine[0]/reverser</property>
+                </binding>
+                <binding>
+                    <command>property-toggle</command>
+                    <property>controls/engines/engine[1]/reverser</property>
+                </binding>
+            </key>
+        </keyboard>
+    </input>
+
+<instrumentation>
+            <path>Aircraft/A340-600/Systems/instrumentation.xml</path>
+        </instrumentation>
+
+
+    <controls>
+        <gear>
+            <brake-parking type="bool">1</brake-parking>
+        </gear>
+<lighting>
+  <strobe>1</strobe>
+  <beacon>1</beacon>
+  <landing-lights>1</landing-lights>
+  <nav-lights>1</nav-lights>
+ </lighting>
+    </controls>
+
+<gear>
+ <gear n="0">
+  <tyre-smoke type="int">0</tyre-smoke>
+  <sprayspeed-ms type="double">0</sprayspeed-ms>
+  <spray-density type="double">0</spray-density>
+  <caster-angle-deg-damped type="double">0</caster-angle-deg-damped>
+ </gear>
+ <gear n="1">
+  <tyre-smoke type="int">0</tyre-smoke>
+  <sprayspeed-ms type="double">0</sprayspeed-ms>
+  <spray-density type="double">0</spray-density>
+ </gear>
+ <gear n="2">
+  <tyre-smoke type="int">0</tyre-smoke>
+  <sprayspeed-ms type="double">0</sprayspeed-ms>
+  <spray-density type="double">0</spray-density>
+ </gear>
+</gear>
+
+    <nasal>
+        <b777>
+            <file>Aircraft/A340-600/Nasal/Electrical.nas</file>
+            <file>Aircraft/A340-600/Nasal/flightdirector.nas</file>
+            <file>Aircraft/A340-600/Nasal/systems.nas</file>
+            <file>Aircraft/A340-600/Nasal/lighting.nas</file>
+		<file>Aircraft/A340-600/Nasal/tyresmoke.nas</file>
+	      <file>Aircraft/A340-600/Nasal/AFDS.nas</file>
+        </b777>
+    <walk>
+    <file>Aircraft/A340-600/Nasal/walk.nas</file>
+    </walk>
+    <failures>
+    <file>Aircraft/A340-600/Nasal/Failures.nas</file>
+   </failures>
+</nasal>
+</PropertyList>
