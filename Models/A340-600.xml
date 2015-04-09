@@ -248,7 +248,7 @@ Liam Gathercole
 
 <model>
  <name>left engine fire</name>
- <path>Aircraft\A340-600\Models\enginefire.xml</path>
+ <path>Aircraft/A340-600/Models/enginefire.xml</path>
  
 <condition>
  <equals>
@@ -269,7 +269,7 @@ Liam Gathercole
 
  <model>
  <name>right engine fire</name>
- <path>Aircraft\A340-600\Models\enginefire.xml</path>
+ <path>Aircraft/A340-600/Models/enginefire.xml</path>
  <condition>
  <equals>
 			             <property>sim/crashed</property>
@@ -287,7 +287,7 @@ Liam Gathercole
 
 <model>
  <name>left outer engine fire</name>
- <path>Aircraft\A340-600\Models\enginefire.xml</path>
+ <path>Aircraft/A340-600/Models/enginefire.xml</path>
  
 <condition>
  <equals>
@@ -310,7 +310,7 @@ Liam Gathercole
  
  <model>
  <name>right outer engine fire</name>
- <path>Aircraft\A340-600\Models\enginefire.xml</path>
+ <path>Aircraft/A340-600/Models/enginefire.xml</path>
  <condition>
  <equals>
 			             <property>sim/crashed</property>
