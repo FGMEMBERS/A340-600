@@ -12,9 +12,9 @@
 
 
 
-<music>
+<music-left>
 <name>Music</name>
- <path>Aircraft/A340-600/Sounds/music.wav</path>
+ <path>Aircraft/A340-600/Sounds/music-left.wav</path>
  <mode>looped</mode>
  <condition>
  <and>
@@ -26,12 +26,33 @@
   </volume>
   <position>
       <x>0.00</x>
-      <y>0.00</y>
-      <z>-0.00</z>
+      <y>5.00</y>
+      <z>0.00</z>
  </position>
  <reference-dist>10.0</reference-dist>
  <max-dist>100.0</max-dist>
-</music>
+</music-left>
+
+<music-right>
+<name>Music</name>
+ <path>Aircraft/A340-600/Sounds/music-right.wav</path>
+ <mode>looped</mode>
+ <condition>
+ <and>
+  <property>controls/switches/music</property>
+ </and>
+ </condition>
+  <volume>
+   <property>sim/sound/Evolume</property>
+  </volume>
+  <position>
+      <x> 0.00</x>
+      <y>-5.00</y>
+      <z> 0.00</z>
+ </position>
+ <reference-dist>10.0</reference-dist>
+ <max-dist>100.0</max-dist>
+</music-right>
 
 <music2>
 <name>Music2</name>
