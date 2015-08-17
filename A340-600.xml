@@ -81,7 +81,7 @@ Note to myself: It's not the same in AC3D
 	<ixy unit="SLUG*FT2">         0 </ixy>
 	<ixz unit="SLUG*FT2">         0 </ixz>
 	<iyz unit="SLUG*FT2">         0 </iyz>
-	<emptywt unit="LBS" >   390,215 </emptywt>
+	<emptywt unit="LBS" >   390215 </emptywt>
 	<location name="CG" unit="IN">
 	<x> 0.68 </x>
 	<y> 0 </y>

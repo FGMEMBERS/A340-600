@@ -5,7 +5,7 @@
     <model>
         <livery>
             <name type="string">Airbus (Old)</name>
-            <texture>/../Models/Liveries/Airbus.png</texture>
+            <texture>Liveries/Airbus.png</texture>
         </livery>
     </model>
 </sim>

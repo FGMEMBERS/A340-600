@@ -5,7 +5,7 @@
     <model>
         <livery>
             <name type="string">Etihad</name>
-            <texture>/../Models/Liveries/ETD.png</texture>
+            <texture>Liveries/ETD.png</texture>
         </livery>
     </model>
 </sim>
