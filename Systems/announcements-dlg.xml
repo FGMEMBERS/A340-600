@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<PropertyList>
+  <name>Cabin Announcements</name>
+  <layout>vbox</layout>
+
+<!-- Reminder, included are: Seatbelt, Departure, CrewDeparture, take-off, cruising, descending, brace -->
+
+  <text>
+    <label>Cabin Announcements</label>
+  </text>
+
+  <hrule/>
+
+  <group>
+    <layout>vbox</layout>
+    <halign>center</halign>
+
+    <text>
+      <label>Check a box to sound a cabin announcement. To hear them more clearly, you may want to switch to an interior view.</label>
+    </text>
+
+<hrule/>
+
+    <checkbox>
+      <halign>left</halign>
+      <label>Seatbelts Sign</label>
+      <property>sim/sound/seatbelt-sign</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/seatbelt-sign</property>
+      </binding>
+    </checkbox>
+
+    <checkbox>
+      <halign>left</halign>
+      <label>Departure</label>
+      <property>sim/sound/departure</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/departure</property>
+      </binding>
+    </checkbox>
+
+    <checkbox>
+      <halign>left</halign>
+      <label>Crew Departure</label>
+      <property>sim/sound/crewdeparture</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/crewdeparture</property>
+      </binding>
+    </checkbox>
+
+    <checkbox>
+      <halign>left</halign>
+      <label>Take-off</label>
+      <property>sim/sound/takeoff</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/takeoff</property>
+      </binding>
+    </checkbox>
+
+    <checkbox>
+      <halign>left</halign>
+      <label>Cruising</label>
+      <property>sim/sound/cruising</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/cruising</property>
+      </binding>
+    </checkbox>
+
+    <checkbox>
+      <halign>left</halign>
+      <label>Descending</label>
+      <property>sim/sound/descending</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/descending</property>
+      </binding>
+    </checkbox>
+
+    <checkbox>
+      <halign>left</halign>
+      <label>Brace (Emergency)</label>
+      <property>sim/sound/brace</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/brace</property>
+      </binding>
+    </checkbox>
+
+
+
+
+  </group>
+
+  <hrule/>
+
+  <group>
+    <layout>hbox</layout>
+    <empty><stretch>true</stretch></empty>
+
+    <button>
+      <legend>Close</legend>
+      <default>true</default>
+      <key>Esc</key>
+      <binding>
+        <command>dialog-close</command>
+      </binding>
+    </button>
+
+    <empty><stretch>true</stretch></empty>
+  </group>
+
+</PropertyList>

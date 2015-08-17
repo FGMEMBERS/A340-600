@@ -1,4 +1,0 @@
-Note that all objects reffered to OUTSIDE (not attatched) to the aircraft are inside the A340-600-Models.xml.
-This way, everything inside the A340-600.xml could be reffered to through this and given a <Pitch-degree>tag,
-so that the entire aircraft could be pitched forward appropraitely on the runway without the whole interior
-being moved.

@@ -1,489 +1,441 @@
-# A340-600 systems
-#Syd Adams Liam Gathercole
-#
-
-var engine_dialog = gui.Dialog.new("/sim/gui/dialogs/B744/engine/dialog", "Aircraft/A340-600/Dialogs/announcements-dialog.xml");
-
-aircraft.livery.init("Aircraft/A340-600/Models/Liveries");
-var SndOut = props.globals.getNode("/sim/sound/Ovolume",1);
-var FHmeter = aircraft.timer.new("/instrumentation/clock/flight-meter-sec", 10).stop();
-var fuel_density =0;
-
-
-#EFIS specific class
-# ie: var efis = EFIS.new("instrumentation/EFIS");
-var EFIS = {
-    new : func(prop1){
-        m = { parents : [EFIS]};
-        m.radio_list=["instrumentation/comm/frequencies","instrumentation/comm[1]/frequencies","instrumentation/nav/frequencies","instrumentation/nav[1]/frequencies"];
-        m.mfd_mode_list=["APP","VOR","MAP","PLAN"];
-        m.eicas_msg=[];
-        m.eicas_msg_red=[];
-        m.eicas_msg_green=[];
-        m.eicas_msg_blue=[];
-        m.eicas_msg_alpha=[];
-
-        m.efis = props.globals.initNode(prop1);
-        m.mfd = m.efis.initNode("mfd");
-        m.pfd = m.efis.initNode("pfd");
-        m.eicas = m.efis.initNode("eicas");
-        m.mfd_mode_num = m.mfd.initNode("mode-num",2,"INT");
-        m.mfd_display_mode = m.mfd.initNode("display-mode",m.mfd_mode_list[2]);
-        m.kpa_mode = m.efis.initNode("inputs/kpa-mode",0,"BOOL");
-        m.kpa_output = m.efis.initNode("inhg-kpa",29.92);
-        m.temp = m.efis.initNode("fixed-temp",0);
-        m.alt_meters = m.efis.initNode("inputs/alt-meters",0,"BOOL");
-        m.fpv = m.efis.initNode("inputs/fpv",0,"BOOL");
-        m.nd_centered = m.efis.initNode("inputs/nd-centered",0,"BOOL");
-        m.mins_mode = m.efis.initNode("inputs/minimums-mode",0,"BOOL");
-        m.minimums = m.efis.initNode("minimums",200,"INT");
-        m.mk_minimums = props.globals.getNode("instrumentation/mk-viii/inputs/arinc429/decision-height");
-        m.wxr = m.efis.initNode("inputs/wxr",0,"BOOL");
-        m.range = m.efis.initNode("inputs/range",0);
-        m.sta = m.efis.initNode("inputs/sta",0,"BOOL");
-        m.wpt = m.efis.initNode("inputs/wpt",0,"BOOL");
-        m.arpt = m.efis.initNode("inputs/arpt",0,"BOOL");
-        m.data = m.efis.initNode("inputs/data",0,"BOOL");
-        m.pos = m.efis.initNode("inputs/pos",0,"BOOL");
-        m.terr = m.efis.initNode("inputs/terr",0,"BOOL");
-        m.rh_vor_adf = m.efis.initNode("inputs/rh-vor-adf",0,"INT");
-        m.lh_vor_adf = m.efis.initNode("inputs/lh-vor-adf",0,"INT");
-
-        m.radio = m.efis.getNode("radio-mode",1);
-        m.radio.setIntValue(0);
-        m.radio_selected = m.efis.getNode("radio-selected",1);
-        m.radio_selected.setDoubleValue(getprop("instrumentation/comm/frequencies/selected-mhz"));
-        m.radio_standby = m.efis.getNode("radio-standby",1);
-        m.radio_standby.setDoubleValue(getprop("instrumentation/comm/frequencies/standby-mhz"));
-
-        m.kpaL = setlistener("instrumentation/altimeter/setting-inhg", func m.calc_kpa());
-
-        for(var i=0; i<11; i+=1) {
-        append(m.eicas_msg,m.eicas.initNode("msg["~i~"]/text"," ","STRING"));
-        append(m.eicas_msg_red,m.eicas.initNode("msg["~i~"]/red",0.1 *i));
-        append(m.eicas_msg_green,m.eicas.initNode("msg["~i~"]/green",0.8));
-        append(m.eicas_msg_blue,m.eicas.initNode("msg["~i~"]/blue",0.8));
-        append(m.eicas_msg_alpha,m.eicas.initNode("msg["~i~"]/alpha",1.0));
-        }
-
-    return m;
-    },
-#### convert inhg to kpa ####
-    calc_kpa : func{
-        var kp = getprop("instrumentation/altimeter/setting-inhg");
-        kp= kp * 33.8637526;
-        me.kpa_output.setValue(kp);
-        },
-#### update temperature display ####
-    update_temp : func{
-        var tmp = getprop("/environment/temperature-degc");
-        if(tmp < 0.00){
-            tmp = -1 * tmp;
-        }
-        me.temp.setValue(tmp);
-    },
-#### swap radio freq ####
-    swap_freq : func(){
-        var tmpsel = me.radio_selected.getValue();
-        var tmpstb = me.radio_standby.getValue();
-        me.radio_selected.setValue(tmpstb);
-        me.radio_standby.setValue(tmpsel);
-        me.update_frequencies();
-    },
-#### copy efis freq to radios ####
-    update_frequencies : func(){
-        var fq = me.radio.getValue();
-        setprop(me.radio_list[fq]~"/selected-mhz",me.radio_selected.getValue());
-        setprop(me.radio_list[fq]~"/standby-mhz",me.radio_standby.getValue());
-    },
-#### modify efis radio standby freq ####
-    set_freq : func(fdr){
-        var rd = me.radio.getValue();
-        var frq =me.radio_standby.getValue();
-        var frq_step =0;
-        if(rd >=2){
-            if(fdr ==1)frq_step = 0.05;
-            if(fdr ==-1)frq_step = -0.05;
-            if(fdr ==10)frq_step = 1.0;
-            if(fdr ==-10)frq_step = -1.0;
-            frq += frq_step;
-            if(frq > 118.000)frq -= 10.000;
-            if(frq<108.000) frq += 10.000;
-        }else{
-            if(fdr ==1)frq_step = 0.025;
-            if(fdr ==-1)frq_step = -0.025;
-            if(fdr ==10)frq_step = 1.0;
-            if(fdr ==-10)frq_step = -1.0;
-            frq += frq_step;
-            if(frq > 136.000)frq -= 18.000;
-            if(frq<118.000) frq += 18.000;
-        }
-        me.radio_standby.setValue(frq);
-        me.update_frequencies();
-    },
-
-    set_radio_mode : func(rm){
-        me.radio.setIntValue(rm);
-        me.radio_selected.setDoubleValue(getprop(me.radio_list[rm]~"/selected-mhz"));
-        me.radio_standby.setDoubleValue(getprop(me.radio_list[rm]~"/standby-mhz"));
-    },
-######### Controller buttons ##########
-    ctl_func : func(md,val){
-        if(md=="range")
-        {
-            var rng =getprop("instrumentation/radar/range");
-            if(val ==1){
-                rng =rng * 2;
-                if(rng > 640) rng = 640;
-            }elsif(val =-1){
-                rng =rng / 2;
-                if(rng < 10) rng = 10;
-            }
-            setprop("instrumentation/radar/range",rng);
-            me.range.setValue(rng);
-        }
-        elsif(md=="tfc")
-        {
-            var pos =getprop("instrumentation/radar/switch");
-            if(pos == "on"){
-                pos = "off";
-                
-            }else{
-                pos="on";
-            }
-            setprop("instrumentation/radar/switch",pos);
-        }
-        elsif(md=="dh")
-        {
-            var num =me.minimums.getValue();
-            if(val==0){
-                num=200;
-            }else{
-                num+=val;
-                if(num<0)num=0;
-                if(num>1000)num=1000;
-            }
-        me.minimums.setValue(num);
-        me.mk_minimums.setValue(num);
-        }
-        elsif(md=="display")
-        {
-            var num =me.mfd_mode_num.getValue();
-            num+=val;
-            if(num<0)num=0;
-            if(num>3)num=3;
-            me.mfd_mode_num.setValue(num);
-            me.mfd_display_mode.setValue(me.mfd_mode_list[num]);
-        }
-        elsif(md=="terr")
-        {
-            var num =me.terr.getValue();
-            num=1-num;
-            me.terr.setValue(num);
-        }
-        elsif(md=="arpt")
-        {
-            var num =me.arpt.getValue();
-            num=1-num;
-            me.arpt.setValue(num);
-        }
-        elsif(md=="wpt")
-        {
-            var num =me.wpt.getValue();
-            num=1-num;
-            me.wpt.setValue(num);
-        }
-        elsif(md=="sta")
-        {
-            var num =me.sta.getValue();
-            num=1-num;
-            me.sta.setValue(num);
-        }
-        elsif(md=="wxr")
-        {
-            var num =me.wxr.getValue();
-            num=1-num;
-            me.wxr.setValue(num);
-        }
-        elsif(md=="rhvor")
-        {
-            var num =me.rh_vor_adf.getValue();
-            num+=val;
-            if(num>1)num=1;
-            if(num<-1)num=-1;
-            me.rh_vor_adf.setValue(num);
-        }
-        elsif(md=="lhvor")
-        {
-            var num =me.lh_vor_adf.getValue();
-            num+=val;
-            if(num>1)num=1;
-            if(num<-1)num=-1;
-            me.lh_vor_adf.setValue(num);
-        }
-        elsif(md=="center")
-        {
-            var num =me.nd_centered.getValue();
-            var fnt=[5,8];
-            num = 1 - num;
-            me.nd_centered.setValue(num);
-            setprop("instrumentation/radar/font/size",fnt[num]);
-        }
-    },
-};
-##############################################
-##############################################
-#Engine control class
-# ie: var Eng = Engine.new(engine number);
-var Engine = {
-    new : func(eng_num){
-        m = { parents : [Engine]};
-        m.fdensity = getprop("consumables/fuel/tank/density-ppg");
-        if(m.fdensity ==nil)m.fdensity=6.72;
-        m.eng = props.globals.getNode("engines/engine["~eng_num~"]",1);
-        m.running = m.eng.getNode("running",1);
-        m.running.setBoolValue(0);
-        m.n1 = m.eng.getNode("n1",1);
-        m.n2 = m.eng.getNode("n2",1);
-        m.rpm = m.eng.getNode("rpm",1);
-        m.rpm.setDoubleValue(0);
-        m.throttle_lever = props.globals.getNode("controls/engines/engine["~eng_num~"]/throttle-lever",1);
-        m.throttle_lever.setDoubleValue(0);
-        m.throttle = props.globals.getNode("controls/engines/engine["~eng_num~"]/throttle",1);
-        m.throttle.setDoubleValue(0);
-        m.cutoff = props.globals.getNode("controls/engines/engine["~eng_num~"]/cutoff",1);
-        m.cutoff.setBoolValue(1);
-        m.fuel_out = props.globals.getNode("engines/engine["~eng_num~"]/out-of-fuel",1);
-        m.fuel_out.setBoolValue(0);
-        m.starter = props.globals.getNode("controls/engines/engine["~eng_num~"]/starter",1);
-        m.fuel_pph=m.eng.getNode("fuel-flow_pph",1);
-        m.fuel_pph.setDoubleValue(0);
-        m.fuel_gph=m.eng.getNode("fuel-flow-gph",1);
-        m.hpump=props.globals.getNode("systems/hydraulics/pump-psi["~eng_num~"]",1);
-        m.hpump.setDoubleValue(0);
-    return m;
-    },
-#### update ####
-    update : func{
-        if(me.fuel_out.getBoolValue())me.cutoff.setBoolValue(1);
-        if(!me.cutoff.getBoolValue()){
-        me.rpm.setValue(me.n1.getValue());
-        me.throttle_lever.setValue(me.throttle.getValue());
-        }else{
-            me.throttle_lever.setValue(0);
-            if(me.starter.getBoolValue()){
-                me.spool_up();
-            }else{
-                var tmprpm = me.rpm.getValue();
-                if(tmprpm > 0.0){
-                    tmprpm -= getprop("sim/time/delta-realtime-sec") * 0.5;
-                    me.rpm.setValue(tmprpm);
-                }
-            }
-        }
-    me.fuel_pph.setValue(me.fuel_gph.getValue()*me.fdensity);
-    var hpsi =me.rpm.getValue();
-    if(hpsi>60)hpsi = 60;
-    me.hpump.setValue(hpsi);
-    },
-
-    spool_up : func{
-        if(!me.cutoff.getBoolValue()){
-        return;
-        }else{
-            var tmprpm = me.rpm.getValue();
-            tmprpm += getprop("sim/time/delta-realtime-sec") * 0.5;
-            me.rpm.setValue(tmprpm);
-            if(tmprpm >= me.n1.getValue())me.cutoff.setBoolValue(0);
-        }
-    },
-
-};
+# AIRBUS A340-600 SYSTEMS FILE
 ##########################
 
-var Wiper = {
-    new : func {
-        m = { parents : [Wiper] };
-        m.direction = 0;
-        m.delay_count = 0;
-        m.spd_factor = 0;
-        m.node = props.globals.getNode(arg[0],1);
-        m.power = props.globals.getNode(arg[1],1);
-        if(m.power.getValue()==nil)m.power.setDoubleValue(0);
-        m.spd = m.node.getNode("arc-sec",1);
-        if(m.spd.getValue()==nil)m.spd.setDoubleValue(1);
-        m.delay = m.node.getNode("delay-sec",1);
-        if(m.delay.getValue()==nil)m.delay.setDoubleValue(0);
-        m.position = m.node.getNode("position-norm", 1);
-        m.position.setDoubleValue(0);
-        m.switch = m.node.getNode("switch", 1);
-        if (m.switch.getValue() == nil)m.switch.setBoolValue(0);
-        return m;
-    },
-    active: func{
-    if(me.power.getValue()<=5)return;
-    var spd_factor = 1/me.spd.getValue();
-    var pos = me.position.getValue();
-    if(!me.switch.getValue()){
-        if(pos <= 0.000)return;
-        }
-    if(pos >=1.000){
-        me.direction=-1;
-        }elsif(pos <=0.000){
-        me.direction=0;
-        me.delay_count+=getprop("/sim/time/delta-sec");
-        if(me.delay_count >= me.delay.getValue()){
-            me.delay_count=0;
-            me.direction=1;
-            }
-        }
-    var wiper_time = spd_factor*getprop("/sim/time/delta-sec");
-    pos +=(wiper_time * me.direction);
-    me.position.setValue(pos);
+## LIVERY SELECT
+################
+
+aircraft.livery.init("Aircraft/A340-600/Models/Liveries");
+
+## LIGHTS
+#########
+
+# create all lights
+var beacon_switch = props.globals.getNode("controls/switches/beacon", 2);
+var beacon = aircraft.light.new("sim/model/lights/beacon", [0.015, 3], "controls/lighting/beacon");
+
+var strobe_switch = props.globals.getNode("controls/switches/strobe", 2);
+var strobe = aircraft.light.new("sim/model/lights/strobe", [0.025, 1.5], "controls/lighting/strobe");
+
+## SOUNDS
+#########
+
+# seatbelt/no smoking sign triggers
+setlistener("controls/switches/seatbelt-sign", func
+ {
+ props.globals.getNode("sim/sound/seatbelt-sign").setBoolValue(1);
+
+ settimer(func
+  {
+  props.globals.getNode("sim/sound/seatbelt-sign").setBoolValue(0);
+  }, 2);
+ });
+setlistener("controls/switches/no-smoking-sign", func
+ {
+ props.globals.getNode("sim/sound/no-smoking-sign").setBoolValue(1);
+
+ settimer(func
+  {
+  props.globals.getNode("sim/sound/no-smoking-sign").setBoolValue(0);
+  }, 2);
+ });
+
+## ENGINES
+##########
+
+# APU loop function
+var apuLoop = func
+ {
+ if (props.globals.getNode("engines/apu/on-fire").getBoolValue())
+  {
+  props.globals.getNode("engines/apu/serviceable").setBoolValue(0);
+  }
+ if (props.globals.getNode("controls/APU/fire-switch").getBoolValue())
+  {
+  props.globals.getNode("engines/apu/on-fire").setBoolValue(0);
+  }
+ if (props.globals.getNode("engines/apu/serviceable").getBoolValue() and (props.globals.getNode("controls/APU/master-switch").getBoolValue() or props.globals.getNode("controls/APU/starter").getBoolValue()))
+  {
+  if (props.globals.getNode("controls/APU/starter").getBoolValue())
+   {
+   var rpm = getprop("engines/apu/rpm");
+   rpm += getprop("sim/time/delta-realtime-sec") * 25;
+   if (rpm >= 100)
+    {
+    rpm = 100;
     }
-};
-#####################
+   setprop("engines/apu/rpm", rpm);
+   }
+  if (props.globals.getNode("controls/APU/master-switch").getBoolValue() and getprop("engines/apu/rpm") == 100)
+   {
+   props.globals.getNode("engines/apu/running").setBoolValue(1);
+   }
+  }
+ else
+  {
+  props.globals.getNode("engines/apu/running").setBoolValue(0);
 
-var Efis = EFIS.new("instrumentation/efis");
-var LHeng=Engine.new(0);
-var RHeng=Engine.new(1);
-    var wiper = Wiper.new("controls/electric/wipers","systems/electrical/bus-volts");
+  var rpm = getprop("engines/apu/rpm");
+  rpm -= getprop("sim/time/delta-realtime-sec") * 30;
+  if (rpm < 0)
+   {
+   rpm = 0;
+   }
+  setprop("engines/apu/rpm", rpm);
+  }
 
-setlistener("/sim/signals/fdm-initialized", func {
-    SndOut.setDoubleValue(0.15);
-    setprop("/instrumentation/clock/flight-meter-hour",0);
-    setprop("/instrumentation/groundradar/id",getprop("sim/tower/airport-id"));
-    settimer(update_systems,2);
-});
+ settimer(apuLoop, 0);
+ };
+# engine loop function
+var engineLoop = func(engine_no)
+ {
+ var tree1 = "engines/engine[" ~ engine_no ~ "]/";
+ var tree2 = "controls/engines/engine[" ~ engine_no ~ "]/";
 
-setlistener("/sim/signals/reinit", func {
-    SndOut.setDoubleValue(0.15);
-    setprop("/instrumentation/clock/flight-meter-hour",0);
-    Shutdown();
-});
+ if (props.globals.getNode(tree1 ~ "on-fire").getBoolValue())
+  {
+  props.globals.getNode("sim/failure-manager/engines/engine[" ~ engine_no ~ "]/serviceable").setBoolValue(0);
+  }
+ if (props.globals.getNode(tree2 ~ "fire-bottle-discharge").getBoolValue())
+  {
+  props.globals.getNode(tree1 ~ "on-fire").setBoolValue(0);
+  }
+ if (props.globals.getNode("sim/failure-manager/engines/engine[" ~ engine_no ~ "]/serviceable").getBoolValue())
+  {
+  props.globals.getNode(tree2 ~ "cutoff").setBoolValue(props.globals.getNode(tree2 ~ "cutoff-switch").getBoolValue());
+  }
+ props.globals.getNode(tree2 ~ "starter").setBoolValue(props.globals.getNode(tree2 ~ "starter-switch").getBoolValue());
 
-setlistener("/autopilot/route-manager/route/num", func(wp){
-    var wpt= wp.getValue() -1;
+ if (getprop("controls/engines/engine-start-switch") == 0 or getprop("controls/engines/engine-start-switch") == 2)
+  {
+  props.globals.getNode(tree2 ~ "starter").setBoolValue(1);
+  }
 
-    if(wpt>-1){
-    setprop("instrumentation/groundradar/id",getprop("autopilot/route-manager/route/wp["~wpt~"]/id"));
-    }else{
-    setprop("instrumentation/groundradar/id",getprop("sim/tower/airport-id"));
+ if (!props.globals.getNode("engines/apu/running").getBoolValue())
+  {
+  props.globals.getNode(tree2 ~ "starter").setBoolValue(0);
+  }
+
+ settimer(func
+  {
+  engineLoop(engine_no);
+  }, 0);
+ };
+# start the loop 2 seconds after the FDM initializes
+setlistener("sim/signals/fdm-initialized", func
+ {
+ settimer(func
+  {
+  engineLoop(0);
+  engineLoop(1);
+  apuLoop();
+  }, 2);
+ });
+
+# startup/shutdown functions
+var startup = func
+ {
+ setprop("controls/electric/battery-switch", 1);
+ setprop("controls/electric/engine[0]/generator", 1);
+ setprop("controls/electric/engine[1]/generator", 1);
+ setprop("controls/engines/engine[0]/cutoff-switch", 1);
+ setprop("controls/engines/engine[1]/cutoff-switch", 1);
+ setprop("controls/APU/master-switch", 1);
+ setprop("controls/APU/starter", 1);
+
+ var listener1 = setlistener("engines/apu/running", func
+  {
+  if (props.globals.getNode("engines/apu/running").getBoolValue())
+   {
+   setprop("controls/engines/engine-start-switch", 2);
+   settimer(func
+    {
+    setprop("controls/engines/engine[0]/cutoff-switch", 0);
+    setprop("controls/engines/engine[1]/cutoff-switch", 0);
+    }, 2);
+   removelistener(listener1);
+   }
+  }, 0, 0);
+ var listener2 = setlistener("engines/engine[0]/running", func
+  {
+  if (props.globals.getNode("engines/engine[0]/running").getBoolValue())
+   {
+   settimer(func
+    {
+    setprop("controls/APU/master-switch", 0);
+    setprop("controls/APU/starter", 0);
+    setprop("controls/electric/battery-switch", 0);
+    }, 2);
+   removelistener(listener2);
+   }
+  }, 0, 0);
+ };
+var shutdown = func
+ {
+ setprop("controls/electric/engine[0]/generator", 0);
+ setprop("controls/electric/engine[1]/generator", 0);
+ setprop("controls/engines/engine[0]/cutoff-switch", 1);
+ setprop("controls/engines/engine[1]/cutoff-switch", 1);
+ };
+
+# listener to activate these functions accordingly
+setlistener("sim/model/start-idling", func(idle)
+ {
+ var run = idle.getBoolValue();
+ if (run)
+  {
+  startup();
+  }
+ else
+  {
+  shutdown();
+  }
+ }, 0, 0);
+
+## GEAR
+#######
+
+# prevent retraction of the landing gear when any of the wheels are compressed
+setlistener("controls/gear/gear-down", func
+ {
+ var down = props.globals.getNode("controls/gear/gear-down").getBoolValue();
+ if (!down and (getprop("gear/gear[0]/wow") or getprop("gear/gear[1]/wow") or getprop("gear/gear[2]/wow")))
+  {
+  props.globals.getNode("controls/gear/gear-down").setBoolValue(1);
+  }
+ });
+
+## INSTRUMENTS
+##############
+
+var instruments =
+ {
+ calcBugDeg: func(bug, limit)
+  {
+  var heading = getprop("orientation/heading-magnetic-deg");
+  var bugDeg = 0;
+
+  while (bug < 0)
+   {
+   bug += 360;
+   }
+  while (bug > 360)
+   {
+   bug -= 360;
+   }
+  if (bug < limit)
+   {
+   bug += 360;
+   }
+  if (heading < limit)
+   {
+   heading += 360;
+   }
+  # bug is adjusted normally
+  if (math.abs(heading - bug) < limit)
+   {
+   bugDeg = heading - bug;
+   }
+  elsif (heading - bug < 0)
+   {
+   # bug is on the far right
+   if (math.abs(heading - bug + 360 >= 180))
+    {
+    bugDeg = -limit;
     }
-},1,0);
-
-setlistener("/sim/current-view/internal", func(vw){
-    if(vw.getValue()){
-    SndOut.setDoubleValue(0.3);
-    }else{
-    SndOut.setDoubleValue(1.0);
+   # bug is on the far left
+   elsif (math.abs(heading - bug + 360 < 180))
+    {
+    bugDeg = limit;
     }
-},1,0);
-
-setlistener("/sim/model/start-idling", func(idle){
-    var run= idle.getBoolValue();
-    if(run){
-    Startup();
-    }else{
-    Shutdown();
+   }
+  else
+   {
+   # bug is on the far right
+   if (math.abs(heading - bug >= 180))
+    {
+    bugDeg = -limit;
     }
-},0,0);
-
-controls.gearDown = func(v) {
-    if (v < 0) {
-        if(!getprop("gear/gear[1]/wow"))setprop("/controls/gear/gear-down", 0);
-    } elsif (v > 0) {
-      setprop("/controls/gear/gear-down", 1);
+   # bug is on the far left
+   elsif (math.abs(heading - bug < 180))
+    {
+    bugDeg = limit;
     }
-}
+   }
 
-stall_horn = func{
-    var alert=0;
-    var kias=getprop("velocities/airspeed-kt");
-    if(kias>150){setprop("sim/sound/stall-horn",alert);return;};
-    var wow1=getprop("gear/gear[1]/wow");
-    var wow2=getprop("gear/gear[2]/wow");
-    if(!wow1 or !wow2){
-        var grdn=getprop("controls/gear/gear-down");
-        var flap=getprop("controls/flight/flaps");
-        if(kias<100){
-            alert=1;
-        }elsif(kias<120){
-            if(!grdn )alert=1;
-        }else{
-            if(flap==0)alert=1;
-        }
+  return bugDeg;
+  },
+ loop: func
+  {
+  instruments.setHSIBugsDeg();
+  instruments.setSpeedBugs();
+  instruments.setMPProps();
+  instruments.calcEGTDegC();
+
+  settimer(instruments.loop, 0);
+  },
+ # set the rotation of the HSI bugs
+ setHSIBugsDeg: func
+  {
+  setprop("sim/model/A320/heading-bug-pfd-deg", instruments.calcBugDeg(getprop("autopilot/settings/heading-bug-deg"), 80));
+  setprop("sim/model/A320/heading-bug-deg", instruments.calcBugDeg(getprop("autopilot/settings/heading-bug-deg"), 37));
+  setprop("sim/model/A320/nav1-bug-deg", instruments.calcBugDeg(getprop("instrumentation/nav[0]/heading-deg"), 37));
+  setprop("sim/model/A320/nav2-bug-deg", instruments.calcBugDeg(getprop("instrumentation/nav[1]/heading-deg"), 37));
+  if (getprop("autopilot/route-manager/route/num") > 0 and getprop("autopilot/route-manager/wp[0]/bearing-deg") != nil)
+   {
+   setprop("sim/model/A320/wp-bearing-deg", instruments.calcBugDeg(getprop("autopilot/route-manager/wp[0]/bearing-deg"), 45));
+   }
+  },
+ setSpeedBugs: func
+  {
+  setprop("sim/model/A320/ias-bug-kt-norm", getprop("autopilot/settings/target-speed-kt") - getprop("velocities/airspeed-kt"));
+  setprop("sim/model/A320/mach-bug-kt-norm", (getprop("autopilot/settings/target-speed-mach") - getprop("velocities/mach")) * 600);
+  },
+ setMPProps: func
+  {
+  var calcMPDistance = func(tree)
+   {
+   var x = getprop(tree ~ "position/global-x");
+   var y = getprop(tree ~ "position/global-y");
+   var z = getprop(tree ~ "position/global-z");
+   var coords = geo.Coord.new().set_xyz(x, y, z);
+
+   var distance = nil;
+   call(func distance = geo.aircraft_position().distance_to(coords), nil, var err = []);
+   if (size(err) or distance == nil)
+    {
+    return 0;
     }
-    setprop("sim/sound/stall-horn",alert);
-}
+   else
+    {
+    return distance;
+    }
+   };
+  var calcMPBearing = func(tree)
+   {
+   var x = getprop(tree ~ "position/global-x");
+   var y = getprop(tree ~ "position/global-y");
+   var z = getprop(tree ~ "position/global-z");
+   var coords = geo.Coord.new().set_xyz(x, y, z);
 
-var Startup = func{
-setprop("controls/electric/engine[0]/generator",1);
-setprop("controls/electric/engine[1]/generator",1);
-setprop("controls/electric/engine[0]/bus-tie",1);
-setprop("controls/electric/engine[1]/bus-tie",1);
-setprop("controls/electric/APU-generator",1);
-setprop("controls/electric/avionics-switch",1);
-setprop("controls/electric/battery-switch",1);
-setprop("controls/electric/inverter-switch",1);
-setprop("controls/lighting/instrument-norm",0.8);
-setprop("controls/lighting/nav-lights",1);
-setprop("controls/lighting/beacon",1);
-setprop("controls/lighting/strobe",1);
-setprop("controls/lighting/wing-lights",1);
-setprop("controls/lighting/taxi-lights",1);
-setprop("controls/lighting/logo-lights",1);
-setprop("controls/lighting/cabin-lights",1);
-setprop("controls/lighting/landing-light[0]",1);
-setprop("controls/lighting/landing-light[1]",1);
-setprop("controls/lighting/landing-light[2]",1);
-setprop("controls/engines/engine[0]/cutoff",0);
-setprop("controls/engines/engine[1]/cutoff",0);
-setprop("controls/fuel/tank/boost-pump",1);
-setprop("controls/fuel/tank/boost-pump[1]",1);
-setprop("controls/fuel/tank[1]/boost-pump",1);
-setprop("controls/fuel/tank[1]/boost-pump[1]",1);
-setprop("controls/fuel/tank[2]/boost-pump",1);
-setprop("controls/fuel/tank[2]/boost-pump[1]",1);
-}
+   return geo.aircraft_position().course_to(coords);
+   };
+  if (getprop("ai/models/multiplayer[0]/valid"))
+   {
+   setprop("sim/model/A320/multiplayer-distance[0]", calcMPDistance("ai/models/multiplayer[0]/"));
+   setprop("sim/model/A320/multiplayer-bearing[0]", instruments.calcBugDeg(calcMPBearing("ai/models/multiplayer[0]/"), 45));
+   }
+  if (getprop("ai/models/multiplayer[1]/valid"))
+   {
+   setprop("sim/model/A320/multiplayer-distance[1]", calcMPDistance("ai/models/multiplayer[1]/"));
+   setprop("sim/model/A320/multiplayer-bearing[1]", instruments.calcBugDeg(calcMPBearing("ai/models/multiplayer[1]/"), 45));
+   }
+  if (getprop("ai/models/multiplayer[2]/valid"))
+   {
+   setprop("sim/model/A320/multiplayer-distance[2]", calcMPDistance("ai/models/multiplayer[2]/"));
+   setprop("sim/model/A320/multiplayer-bearing[2]", instruments.calcBugDeg(calcMPBearing("ai/models/multiplayer[2]/"), 45));
+   }
+  if (getprop("ai/models/multiplayer[3]/valid"))
+   {
+   setprop("sim/model/A320/multiplayer-distance[3]", calcMPDistance("ai/models/multiplayer[3]/"));
+   setprop("sim/model/A320/multiplayer-bearing[3]", instruments.calcBugDeg(calcMPBearing("ai/models/multiplayer[3]/"), 45));
+   }
+  if (getprop("ai/models/multiplayer[4]/valid"))
+   {
+   setprop("sim/model/A320/multiplayer-distance[4]", calcMPDistance("ai/models/multiplayer[4]/"));
+   setprop("sim/model/A320/multiplayer-bearing[4]", instruments.calcBugDeg(calcMPBearing("ai/models/multiplayer[4]/"), 45));
+   }
+  if (getprop("ai/models/multiplayer[5]/valid"))
+   {
+   setprop("sim/model/A320/multiplayer-distance[5]", calcMPDistance("ai/models/multiplayer[5]/"));
+   setprop("sim/model/A320/multiplayer-bearing[5]", instruments.calcBugDeg(calcMPBearing("ai/models/multiplayer[5]/"), 45));
+   }
+  },
+ calcEGTDegC: func()
+  {
+  if (getprop("engines/engine[0]/egt-degf") != nil)
+   {
+   setprop("engines/engine[0]/egt-degc", (getprop("engines/engine[0]/egt-degf") - 32) * 1.8);
+   }
+  if (getprop("engines/engine[1]/egt-degf") != nil)
+   {
+   setprop("engines/engine[1]/egt-degc", (getprop("engines/engine[1]/egt-degf") - 32) * 1.8);
+   }
+  }
+ };
+# start the loop 2 seconds after the FDM initializes
+setlistener("sim/signals/fdm-initialized", func
+ {
+ settimer(instruments.loop, 2);
+ });
 
-var Shutdown = func{
-setprop("controls/electric/engine[0]/generator",0);
-setprop("controls/electric/engine[1]/generator",0);
-setprop("controls/electric/engine[0]/bus-tie",0);
-setprop("controls/electric/engine[1]/bus-tie",0);
-setprop("controls/electric/APU-generator",0);
-setprop("controls/electric/avionics-switch",0);
-setprop("controls/electric/battery-switch",0);
-setprop("controls/electric/inverter-switch",0);
-setprop("controls/lighting/instruments-norm",0);
-setprop("controls/lighting/nav-lights",0);
-setprop("controls/lighting/beacon",0);
-setprop("controls/lighting/strobe",0);
-setprop("controls/lighting/wing-lights",0);
-setprop("controls/lighting/taxi-lights",0);
-setprop("controls/lighting/logo-lights",0);
-setprop("controls/lighting/cabin-lights",0);
-setprop("controls/lighting/landing-light[0]",0);
-setprop("controls/lighting/landing-light[1]",0);
-setprop("controls/lighting/landing-light[2]",0);
-setprop("controls/engines/engine[0]/cutoff",1);
-setprop("controls/engines/engine[1]/cutoff",1);
-setprop("controls/fuel/tank/boost-pump",0);
-setprop("controls/fuel/tank/boost-pump[1]",0);
-setprop("controls/fuel/tank[1]/boost-pump",0);
-setprop("controls/fuel/tank[1]/boost-pump[1]",0);
-setprop("controls/fuel/tank[2]/boost-pump",0);
-setprop("controls/fuel/tank[2]/boost-pump[1]",0);
-}
+## AUTOPILOT
+############
 
-var update_systems = func {
-    Efis.calc_kpa();
-    Efis.update_temp();
-    LHeng.update();
-    RHeng.update();
-    wiper.active();
-    stall_horn();
-    settimer(update_systems,0);
-}
+# set the vertical speed setting if the altitude setting is higher/lower than the current altitude
+var APVertSpeedSet = func
+ {
+ var altitude = getprop("instrumentation/altimeter/indicated-altitude-ft");
+ var altitudeSetting = getprop("autopilot/settings/target-altitude-ft");
+ var vertSpeedSetting = getprop("autopilot/settings/vertical-speed-fpm");
 
+ if (altitude and altitudeSetting and vertSpeedSetting and math.abs(altitude - altitudeSetting) > 100)
+  {
+  if (altitude > altitudeSetting and vertSpeedSetting >= 0)
+   {
+   setprop("autopilot/settings/vertical-speed-fpm", -1000);
+   }
+  elsif (altitude < altitudeSetting and vertSpeedSetting <= 0)
+   {
+   setprop("autopilot/settings/vertical-speed-fpm", 1800);
+   }
+  }
+ };
+setlistener("autopilot/settings/target-altitude-ft", APVertSpeedSet, 1, 0);
+
+## DOORS
+########
+
+# create all doors
+# front doors
+var doorl1 = aircraft.door.new("sim/model/door-positions/doorl1", 2);
+var doorr1 = aircraft.door.new("sim/model/door-positions/doorr1", 2);
+
+# middle doors (A321 only)
+var doorl2 = aircraft.door.new("sim/model/door-positions/doorl2", 2);
+var doorr2 = aircraft.door.new("sim/model/door-positions/doorr2", 2);
+var doorl3 = aircraft.door.new("sim/model/door-positions/doorl3", 2);
+var doorr3 = aircraft.door.new("sim/model/door-positions/doorr3", 2);
+
+# rear doors
+var doorl4 = aircraft.door.new("sim/model/door-positions/doorl4", 2);
+var doorr4 = aircraft.door.new("sim/model/door-positions/doorr4", 2);
+
+# cargo holds
+var cargobulk = aircraft.door.new("sim/model/door-positions/cargobulk", 2.5);
+var cargoaft = aircraft.door.new("sim/model/door-positions/cargoaft", 2.5);
+var cargofwd = aircraft.door.new("sim/model/door-positions/cargofwd", 2.5);
+
+# seat armrests in the flight deck
+var armrests = aircraft.door.new("sim/model/door-positions/armrests", 2);
+
+# door opener/closer
+var triggerDoor = func(door, doorName, doorDesc)
+ {
+ if (getprop("sim/model/door-positions/" ~ doorName ~ "/position-norm") > 0)
+  {
+  gui.popupTip("Closing " ~ doorDesc ~ " door");
+  door.toggle();
+  }
+ else
+  {
+  if (getprop("velocities/groundspeed-kt") > 5)
+   {
+   gui.popupTip("You cannot open the doors while the aircraft is moving");
+   }
+  else
+   {
+   gui.popupTip("Opening " ~ doorDesc ~ " door");
+   door.toggle();
+   }
+  }
+ };

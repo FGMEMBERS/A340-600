@@ -1,6 +1,252 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <PropertyList>
-<!-- INTERIOR IS DISABLED -->
+
+<model>
+  <path>Aircraft/A340-600/Models/interior/cabin.ac</path>
+</model>
+    
+    <animation>
+		<name>IFE screen illumination</name>
+		<type>material</type>
+        <object-name>screen</object-name>
+		<emission>
+			<red>0.75</red>
+			<green>0.75</green>
+			<blue>0.75</blue>
+		</emission>
+	</animation>    
+
+    <animation>
+		<name>furnature illumination</name>
+		<type>material</type>
+        <object-name>cabin</object-name>
+        <object-name>seating</object-name>
+		<emission>
+			<red>0.15</red>
+			<green>0.15</green>
+			<blue>0.15</blue>
+		</emission>
+	</animation>
+
+<!-- Seats -->
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -5.9 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -5.0 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -4.1 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -3.2 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -2.3 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -1.4 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> -0.5 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 0.4 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 1.3 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 2.2 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 3.1 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 4.0 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 4.9 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 5.8 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 6.7 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 7.6 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 8.5 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 10.3 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 11.2 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 12.1 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 13.0 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 13.9 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 14.8 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 15.7 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 16.6 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 17.5 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/A340-600/Models/interior/seating.ac</path>
+    <offsets>
+      <x-m> 18.4 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+    
 </PropertyList>
 

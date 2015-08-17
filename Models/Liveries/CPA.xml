@@ -5,7 +5,7 @@
     <model>
         <livery>
             <name type="string">Cathay Pacific</name>
-            <texture>Liveries/Liveries/CPA.png</texture>
+            <texture>/../Models/Liveries/CPA.png</texture>
         </livery>
     </model>
 </sim>

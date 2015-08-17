@@ -5,7 +5,7 @@
     <model>
         <livery>
             <name type="string">Iberia</name>
-            <texture>Liveries/Liveries/IBE.png</texture>
+            <texture>/../Models/Liveries/IBE.png</texture>
         </livery>
     </model>
 </sim>

@@ -1,0 +1,68 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf350
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;\red247\green247\blue247;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww19120\viewh17200\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 Airbus A340-600 Dimensions and Specifications\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\
+REFERENCE: http://www.aerospaceweb.org/aircraft/jetliner/a340/ (Useful for weights)\
+\
+Developing nation:	Multiple European Nations\
+Manufacturer/designer: 	EADS \'96 Airbus Industries.\
+Production line:	Toulouse \'96 Blagnac, France.\
+Type aircraft:	Long range wide body airliner.\
+First flight:	April 23, 2001, F-WWTA c/n. 360.\
+First delivery:	August 2002 to Virgin Atlantic.\
+ 	Airbus A340-600\
+Cockpit crew:	Two pilots.\
+Passengers two class:	- 36 business class.\
+- 383 economy class.\
+Passengers three class:	- 12 first class.\
+- 54 business class.\
+- 314 economy class.\
+Cabin length:	60,98 m.\
+Cabin diameter:	5,28 m.\
+Cabin height:	2,54 m.\
+Cargo volume:	Total load 207,6 m\'b3.\
+LD3 Containers in belly:	43.\
+Standard 2.24m x 3.17m pallets:	in belly 14.\
+Wing span:	63,45 m.\
+Wing area:	439,4 m\'b2.\
+Wing sweep:	31,1  degrees.\
+Fuselage length:	75,30 m.\
+Fuselage diameter:	5,64 m. (note: Width and height equal)\
+Height:	17,3 m.\
+Wheelbase:	32,89 m.\
+Track:	10,69 m.\
+Engines:	- Four Rolls-Royce Trent 556 rated 249 kN.\
+Weight:	- Empty: 177.000 Kg.\
+- Max. zero-fuel weight: 251.000 Kg.\
+- Fuel: 204.500 liter.\
+- Max. payload: 55.600 Kg.\
+Max. take off weight:	380.000 Kg. (
+\f1\fs22 \cb2 811,000 lbs)
+\f0\fs24 \cb1 \
+Max. landing weight:	265.000 Kg.\
+Cruise speed:	861 km/h.\
+Max. speed:	915 km/h.\
+Service ceiling:	11.887 m.\
+Max. range:	14.600 km.\
+\
+enginel1\
+enginel2\
+enginer1\
+enginer2\
+\
+enginel1reverser\
+enginel2reverser\
+enginer1reverser\
+enginer2reverser\
+\
+fan1\
+fan2\
+fan3\
+fan4\
+\
+}

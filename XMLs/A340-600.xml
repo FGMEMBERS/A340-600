@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+	<offsets>
+		<x-m>-18.8499</x-m>
+		<z-m>1.7005004</z-m>
+	</offsets>
+
+	<model>
+		<name>Aircraft</name>
+		<path>Aircraft/A340-600/XMLs/A340-600-Model.xml</path>
+	<offsets>
+			<x-m>20.0</x-m>
+			<z-m>-1.8</z-m>
+		</offsets>
+	</model>
+
+<!-- FlightDeck (Inside view only) -->
+	<model>
+		<name>Flightdeck</name>
+		<path>Aircraft/A340-600/XMLs/FlightDeck/a346.flightdeck.xml</path>
+		<offsets>
+			<x-m>0.75</x-m>
+			<z-m>0.75</z-m>
+		</offsets>
+        <condition>
+            <property>sim/current-view/internal</property>
+        </condition>
+	</model>
+    
+<!-- Interior Cabin -->
+  <model>
+    <path>Aircraft/A340-600/Models/interior/interior.xml</path>
+    <offsets>
+      <x-m> 18.5 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m>-1.8 </z-m>
+    </offsets>
+    <condition>
+        <property>sim/current-view/internal</property>
+    </condition>
+  </model>
+
+	<!-- Other non-aircraft models -->
+	<!-- Airport operations -->
+
+	<model>
+		<name>Pushback</name>
+		<path>Models/Airport/Pushback/Goldhofert.xml</path>
+		<offsets>
+			<x-m>-13.00</x-m>
+			<y-m>0</y-m>
+			<z-m>-6.1</z-m>
+		</offsets>
+	</model>
+
+ 	<model>
+ 	<name>Followme</name>
+	 <path>Aircraft/A340-600/Models/Operations/Followme/followme.xml</path>
+	 <condition>
+	 <equals>
+			             <property>controls/switches/followme</property>
+                                            <value type="bool">true</value>
+ 	</equals>
+            <less-than>
+                <property>velocities/airspeed-kt</property>
+                <value>80</value>
+            </less-than>
+ 	 </condition>   
+ 	 <offsets>
+ 	 <x-m>-30</x-m>
+         <y-m>0</y-m>
+         <z-m>-6.1</z-m>
+	 </offsets>
+	</model>
+
+
+	 <model>
+ 	<name>Fuel Truck</name>
+ 	<path>Models/Airport/tank1.xml</path>
+	  <condition>
+ 	<equals>
+			             <property>controls/switches/fuel</property>
+                                            <value type="bool">true</value>
+	 </equals>
+            <less-than>
+                <property>velocities/airspeed-kt</property>
+                <value>15</value>
+            </less-than>
+	  </condition>   
+ 	 <offsets>
+ 	 <x-m>-3</x-m>
+         <y-m> 15</y-m>
+         <z-m>-6.1</z-m>
+	 </offsets>
+	</model>
+
+	<model>
+	<name>GPU truck long</name>
+ 	<path>Models/Airport/chariot.xml</path>
+	  <condition>
+ 	<equals>
+			             <property>controls/switches/gpu</property>
+                                            <value type="bool">true</value>
+	 </equals>
+            <less-than>
+                <property>velocities/airspeed-kt</property>
+                <value>15</value>
+            </less-than>
+	  </condition>   
+	<offsets>
+	  <x-m>12</x-m>
+            <y-m> 18</y-m>
+            <z-m>-6.1</z-m>
+            <pitch-deg>0</pitch-deg>
+            <heading-deg>90</heading-deg>
+        </offsets>
+	</model>
+
+	<model>
+		<name>Tutorial marker</name>
+		<path>Models/Aircraft/marker.xml</path>
+	</model>
+
+</PropertyList>
