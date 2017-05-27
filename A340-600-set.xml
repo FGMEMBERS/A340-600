@@ -7,6 +7,21 @@
         <aircraft-version>20080400</aircraft-version>
         <flight-model>yasim</flight-model>
         <aero>A340-600</aero>
+	<tags>
+		<tag>airbus</tag>
+		<tag>transport</tag>
+		<tag>low-wing</tag>
+		<tag>tricycle</tag>
+		<tag>retractable-gear</tag>
+	 	<tag>four-engine</tag>
+		<tag>jet</tag>
+		<tag>glass-cockpit</tag>
+		<tag>etops</tag>
+		<tag>ifr</tag>
+		<tag>1990s</tag>
+		<tag>2000s</tag>
+		<tag>2010s</tag>
+	</tags>
         <fuel-fraction>0.75</fuel-fraction>
         <startup>
             <splash-texture>Aircraft/A340-600/splash.png</splash-texture>
